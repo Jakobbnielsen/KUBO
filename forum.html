@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>KUBO</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <form>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button type="button" id="button" value="login" onclick="login()">Login</button>
+  </form>
+    <script>
+      document.write("<h1>Hi "+localStorage.username+" you are now registered</h1>");
+      function login(){
+      if(localStorage.password == document.getElementById("password").value){
+        window.open('login.html');
+      }
+      else{
+        alert("Wrong username/password");
+      }
+      }
+    </script>
+  </body>
+</html>
