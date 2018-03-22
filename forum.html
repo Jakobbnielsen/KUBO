@@ -7,21 +7,28 @@
     <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
-    <form>
-    <input type="text" id="username" placeholder="Username">
-    <input type="password" id="password" placeholder="Password">
-    <button type="button" id="button" value="login" onclick="login()">Login</button>
-  </form>
+    <main>
+      <img src="media/kedu-logo.png">
     <script>
       document.write("<h1>Hi "+localStorage.username+" you are now registered</h1>");
       function login(){
       if(localStorage.password == document.getElementById("password").value){
-        window.open('login.html');
+        window.location.href = 'login.html';
       }
       else{
         alert("Wrong username/password");
       }
       }
+      function register(){
+        window.location.href = 'index.html';
+      }
     </script>
+    <form>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button type="submit" id="button" value="login" onclick="login()">Login</button>
+    <button type="button" id="button" value="register" onclick="register()">Register</button>
+  </form>
+</main>
   </body>
 </html>

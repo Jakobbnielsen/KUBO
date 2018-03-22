@@ -8,10 +8,10 @@
   </head>
   <body>
     <form>
-    <input type="text" id="username" placeholder="Username">
-    <input type="password" id="password" placeholder="Password">
-    <button type="button" id="button" value="login" onclick="getInfo()">Registerer</button>
-  </form>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button type="submit" id="button" value="login" onclick="getInfo()">Registerer</button>
+    </form>
     <script>
       function getInfo(){
         var username = document.getElementById("username").value;
@@ -19,7 +19,7 @@
         localStorage.setItem("username",username);
         localStorage.setItem("password",password);
         console.log("your username is " + username + " and your password is " + password)
-        window.open('forum.html');
+        window.open("forum.html")
       }
     </script>
   </body>
