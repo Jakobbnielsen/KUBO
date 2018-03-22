@@ -5,27 +5,29 @@
     <title>KUBO</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
   </head>
   <body>
     <main>
       <img src="media/kedu-logo.png">
     <script>
-      document.write("<h1>Hi "+localStorage.username+" you are now registered</h1>");
+      document.write("<h1>KEDU is an online community for teachers</h1>");
+      document.write("<p class='tagline'>Hi "+localStorage.username+"! KEDU is an online community for teachers, educators, pedagogue, and others who teach with KUBO.</p>");
       function login(){
       if(localStorage.password == document.getElementById("password").value){
-        window.location.href = 'login.html';
+        window.open("login.html");
       }
       else{
         alert("Wrong username/password");
       }
       }
       function register(){
-        window.location.href = 'index.html';
+        window.open("index.html");
       }
     </script>
     <form>
-    <input type="text" id="username" placeholder="Username">
-    <input type="password" id="password" placeholder="Password">
+    <input type="text" id="username" placeholder="Your username...">
+    <input type="password" id="password" placeholder="Your password...">
     <button type="submit" id="button" value="login" onclick="login()">Login</button>
     <button type="button" id="button" value="register" onclick="register()">Register</button>
   </form>
