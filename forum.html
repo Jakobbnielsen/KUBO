@@ -9,28 +9,64 @@
   </head>
   <body>
     <main>
+      <h1>KEDU is an online community for teachers</h1>
       <img src="media/kedu-logo.png">
     <script>
-      document.write("<h1>KEDU is an online community for teachers</h1>");
-      document.write("<p class='tagline'>Hi "+localStorage.username+"! KEDU is an online community for teachers, educators, pedagogue, and others who teach with KUBO.</p>");
-      function login(){
-      if(localStorage.password == document.getElementById("password").value){
-        window.open("login.html");
-      }
-      else{
-        alert("Wrong username/password");
-      }
-      }
-      function register(){
-        window.open("index.html");
-      }
+
+      document.write("<p class='tagline'>KEDU is an online community for teachers, educators, pedagogue, and others who teach with KUBO.</p>");
     </script>
     <form>
-    <input type="text" id="username" placeholder="Your username...">
+    <input type="text" id="email" placeholder="Your email...">
     <input type="password" id="password" placeholder="Your password...">
-    <button type="submit" id="button" value="login" onclick="login()">Login</button>
-    <button type="button" id="button" value="register" onclick="register()">Register</button>
+    <button type="submit" id="button" value="login" onclick="login()">LOGIN</button>
+    <button type="button" id="button" value="signup" onclick="openPopupMenu()">SIGN UP</button>
   </form>
 </main>
+<div id="popup">
+  <div id="popup-main">
+    <h2>Sign up as a member of KEDU</h2>
+    <form>
+      <input type="text" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+      <input type="text" id="firstname" placeholder="Firstname">
+      <input type="text" id="lastname" placeholder="Lastname">
+      <input type="text" id="gender" placeholder="Gender">
+      <input type="text" id="country" placeholder="Country">
+      <input type="text" id="city" placeholder="City">
+      <input type="text" id="school" placeholder="School">
+      <button type="submit" id="button" value="login" onclick="getInfo()">CREATE USER</button>
+    </form>
+    <div id="close-popup" title="Close popup" onclick="closePopupMenu()">
+      <p>X</p>
+    </div>
+  </div>
+</div>
+<script>
+var popupDiv = document.getElementById("popup");
+
+function openPopupMenu(){
+  popupDiv.style.display = "block";
+}
+function closePopupMenu(){
+  popupDiv.style.display = "none";
+}
+
+function getInfo(){
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  localStorage.setItem("email",email);
+  localStorage.setItem("password",password);
+}
+
+function login(){
+if(localStorage.password == document.getElementById("password").value){
+  window.open("login.html");
+}
+else{
+  alert("Wrong email/password");
+}
+}
+
+</script>
   </body>
 </html>
