@@ -124,3 +124,49 @@ h1{
   font-weight: bold;
   margin-top: 3px;
 }
+
+.vote{
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  background: white;
+}
+
+#votebutton{
+  float: left;
+  width: 26px;
+  height: 15px;
+  background-image: url("media/vote.png")
+}
+
+#votebutton p{
+  padding-top: 16px;
+  font-size: 14px;
+}
+
+#votebutton2{
+  float: left;
+  width: 26px;
+  height: 15px;
+  background-image: url("media/upvote.png")
+}
+
+#votebutton2 p{
+  padding-top: 16px;
+  font-size: 14px;
+}
+
+.votenumber{
+  width: 100%;
+  box-shadow: none;
+  margin: 4px 0 0 -18px;
+  background: none;
+  -webkit-touch-callout: none;
+}
+
+.posttext{
+  color: #646464;
+  margin: 12px 0 0 12px;
+  float: left;
+}

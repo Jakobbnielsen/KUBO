@@ -8,10 +8,55 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
   </head>
   <body>
-
     <script>
       document.write("<h1>Hi "+localStorage.emailinput+" you are now logged in</h1>");
       document.write("<p class='tagline'>Here is the community. enjoy.</p>");
     </script>
+      <div class="vote">
+        <div id="votebutton" onclick="vote()" value="Increment Value">
+          <input class="votenumber" type="text" id="number" value="257" disabled>
+        </div>
+        <p class="posttext">This is a post</p>
+      </div>
+      <script>
+      $('votebutton').on({
+          click: function(){
+              $(this).addClass('votebutton2').removeClass('votebutton') // changes background on click
+          },
+          mousedown: function() {
+              // :active state
+          },
+          mouseup: function() {
+              // on click release
+          },
+          mouseenter: function() {
+              // on hover
+          },
+          mouseleave: function() {
+              // hover exit
+          }
+          /*
+            , hover: function(){
+                 // or hover instead of enter/leave
+              }
+          */
+      })
+
+
+
+      function vote()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+
+    if(value>257){
+      value = value - 5;
+    }
+
+}
+
+</script>
   </body>
 </html>
