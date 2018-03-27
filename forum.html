@@ -26,10 +26,10 @@
   <div id="popup-main">
     <h2>Sign up as a member of KEDU</h2>
     <form>
-      <input type="text" id="email" placeholder="Email">
-      <input type="password" id="password" placeholder="Password">
-      <input type="text" id="firstname" placeholder="Firstname">
-      <input type="text" id="lastname" placeholder="Lastname">
+      <input type="text" id="emailinput" placeholder="Email">
+      <input type="password" id="password-input" placeholder="Password">
+      <input type="text" id="firstname" placeholder="First Name">
+      <input type="text" id="lastname" placeholder="Last Name">
       <input type="text" id="gender" placeholder="Gender">
       <input type="text" id="country" placeholder="Country">
       <input type="text" id="city" placeholder="City">
@@ -52,14 +52,14 @@ function closePopupMenu(){
 }
 
 function getInfo(){
-  var email = document.getElementById("email").value;
+  var email = document.getElementById("emailinput").value;
   var password = document.getElementById("password").value;
-  localStorage.setItem("email",email);
-  localStorage.setItem("password",password);
+  localStorage.setItem("emailinput",email);
+  localStorage.setItem("password-input",password);
 }
 
 function login(){
-if(localStorage.password == document.getElementById("password").value){
+if(localStorage.password == document.getElementById("password-input").value){
   window.open("login.html");
 }
 else{
