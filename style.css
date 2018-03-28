@@ -133,20 +133,16 @@ h1{
   background: white;
 }
 
-.votebutton{
+#votebutton{
   float: left;
   width: 26px;
   height: 15px;
-  background-image: url("media/vote.png")
+  background-image: url("media/vote.png");
 }
 
-.votebutton p{
+#votebutton p{
   padding-top: 16px;
   font-size: 14px;
-}
-
-.votebutton:hover{
-  background-image: url("media/upvote.png")
 }
 
 .votenumber{

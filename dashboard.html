@@ -13,27 +13,19 @@
       document.write("<p class='tagline'>Here is the community. enjoy.</p>");
     </script>
       <div class="vote">
-        <div class="votebutton" onclick="vote()" value="Increment Value">
+        <div id="votebutton" onclick="vote()" value="Increment Value">
           <input class="votenumber" type="text" id="number" value="257" disabled>
         </div>
         <p class="posttext">This is a post</p>
       </div>
       <script>
-
-
-
-
       function vote()
 {
     var value = parseInt(document.getElementById('number').value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
     document.getElementById('number').value = value;
-
-    if(value>257){
-      value = value - 5;
-    }
-
+    document.getElementById('votebutton').style.backgroundImage = 'url(media/upvote.png)';
 }
 
 </script>
