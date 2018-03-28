@@ -9,7 +9,6 @@
 }
 
 body{
-  background-image: url("media/bg.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -215,3 +214,40 @@ footer{
   margin-top: -40px;
   color: #FFF;
 }
+
+.headerstyle{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+header{
+  padding-top:30px;
+  height:100px;
+}
+
+header a{
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:right;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current{
+  color:#4A4C45;
+  font-weight:bold;
