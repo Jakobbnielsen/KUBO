@@ -292,7 +292,7 @@ footer{
 }
 
 .headerstyle{
-  width: 90%;
+  width: 88%;
   margin: auto;
   overflow: hidden;
 }
@@ -311,6 +311,7 @@ header a{
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
+  color: #646464;
 }
 
 header li{
@@ -322,8 +323,15 @@ header li{
 header nav{
   float:right;
   margin-top:10px;
+  color: #646464
 }
 
-header .current{
-  color:#4A4C45;
+.current{
+  color: #00A19B;
   font-weight:bold;
+}
+
+.logo{
+  float: left;
+  padding-left: 35px;
+}
