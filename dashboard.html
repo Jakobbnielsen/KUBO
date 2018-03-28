@@ -11,19 +11,26 @@
     <main class="container">
       <div class="bigimage">
         <img src="media/kubo1.jpg">
+        <p class="overlay">This is KUBO</p>
       </div>
       <div class="smallimage">
         <img src="media/kubo1.jpg">
         <img src="media/kubo1.jpg">
       </div>
-
-    </main>
-      <div class="vote">
-        <div id="votebutton" onclick="vote(); this.onclick=null;" value="Increment Value">
-          <input class="votenumber" type="text" id="number" value="257" disabled>
+      <section id="trending">
+        <div class="vote">
+          <div id="votebutton" onclick="vote(); this.onclick=null;" value="Increment Value">
+            <input class="votenumber" type="text" id="number" value="257" disabled>
+          </div>
+          <p class="posttext">This is a post</p>
         </div>
-        <p class="posttext">This is a post</p>
-      </div>
+      </section>
+      <section id="news">
+
+      </section>
+    </main>
+    <footer>
+    </footer>
       <script>
       function vote()
 {

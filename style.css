@@ -167,9 +167,10 @@ h1{
 .bigimage{
   flex: 65%;
   max-width: 65%;
+  margin-right: 20px;
 }
 
-.bigimage{
+.bigimage img{
   width: 100%;
   vertical-align: middle;
 }
@@ -186,4 +187,31 @@ h1{
   height: 43%;
   margin-bottom: 20px;
   vertical-align: middle;
+}
+
+#trending{
+  height: 200px;
+  float:left;
+  width: 100%;
+  background: blue;
+}
+
+#news{
+  height: 200px;
+  float:left;
+  width: 100%;
+  background: orange;
+}
+
+footer{
+  height: 200px;
+  float:left;
+  width: 100%;
+  background: green;
+}
+
+.overlay{
+  position: relative;
+  margin-top: -40px;
+  color: #FFF;
 }
