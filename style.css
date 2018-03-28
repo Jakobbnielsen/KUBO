@@ -210,7 +210,7 @@ header a{
 }
 
 header li{
-  float:left;
+  float:right;
   display:inline;
   padding: 0 20px 0 20px;
 }
@@ -221,11 +221,6 @@ header nav{
 }
 
 header .current{
-  color:#4A4C45;
-  font-weight:bold;
-}
-
-header a:hover{
   color:#4A4C45;
   font-weight:bold;
 }
