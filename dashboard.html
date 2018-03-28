@@ -8,10 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
   </head>
   <body>
-    <script>
-      document.write("<h1>Hi "+localStorage.emailinput+" you are now logged in</h1>");
-      document.write("<p class='tagline'>Here is the community. enjoy.</p>");
-    </script>
+    <main class="container">
+      <div class="bigimage">
+        <img src="media/kubo1.jpg">
+      </div>
+      <div class="smallimage">
+        <img src="media/kubo1.jpg">
+        <img src="media/kubo1.jpg">
+      </div>
+
+    </main>
       <div class="vote">
         <div id="votebutton" onclick="vote()" value="Increment Value">
           <input class="votenumber" type="text" id="number" value="257" disabled>
@@ -26,6 +32,8 @@
     value++;
     document.getElementById('number').value = value;
     document.getElementById('votebutton').style.backgroundImage = 'url(media/upvote.png)';
+
+
 }
 
 </script>

@@ -14,7 +14,7 @@ body{
   text-align: center;
 }
 
-main{
+.indexcontainer{
   height: 400px;
   position: relative;
   position: absolute;
@@ -157,4 +157,33 @@ h1{
   color: #646464;
   margin: 20px 0 0 10px;
   float: left;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bigimage{
+  flex: 65%;
+  max-width: 65%;
+}
+
+.bigimage{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.smallimage{
+  flex: 33%;
+  max-width: 33%;
+  flex-direction: column;
+  height: auto;
+}
+
+.smallimage img{
+  width: 100%;
+  height: 43%;
+  margin-bottom: 20px;
+  vertical-align: middle;
 }
