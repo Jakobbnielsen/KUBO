@@ -53,3 +53,53 @@ document.getElementById('number5').value = value;
 document.getElementById('votebutton5').style.backgroundImage = 'url(media/upvote.png)';
 
 }
+
+function vote6()
+{
+var value = parseInt(document.getElementById('number6').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('number6').value = value;
+document.getElementById('votebutton6').style.backgroundImage = 'url(media/upvote.png)';
+
+}
+
+function vote7()
+{
+var value = parseInt(document.getElementById('number7').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('number7').value = value;
+document.getElementById('votebutton7').style.backgroundImage = 'url(media/upvote.png)';
+
+}
+
+function vote8()
+{
+var value = parseInt(document.getElementById('number8').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('number8').value = value;
+document.getElementById('votebutton8').style.backgroundImage = 'url(media/upvote.png)';
+
+}
+
+function vote9()
+{
+var value = parseInt(document.getElementById('number9').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('number9').value = value;
+document.getElementById('votebutton9').style.backgroundImage = 'url(media/upvote.png)';
+
+}
+
+function vote10()
+{
+var value = parseInt(document.getElementById('number10').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('number10').value = value;
+document.getElementById('votebutton10').style.backgroundImage = 'url(media/upvote.png)';
+
+}
