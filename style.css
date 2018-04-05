@@ -397,29 +397,6 @@ h1{
   grid-gap: 10px;
 }
 
-
-.news1 {
-  grid-area: main;
- }
-.news2 {
-  grid-area: main;
-}
-.news3 {
-  grid-area: main;
-}
-.news4 {
-  grid-area: main;
-}
-
-.news-container {
-  display: grid;
-  grid-template-areas:
-    'main main'
-    'main main';
-  grid-gap: 10px;
-  background: grey;
-}
-
 .grid-container {
   width: 1100px;
   height: 500px;
@@ -438,10 +415,6 @@ h1{
   padding: 20px 0;
   font-size: 30px;
 }
-
-
-
-
 
 #trending{
   height: 700px;
@@ -471,10 +444,62 @@ h1{
 }
 
 #news{
-  height: 400px;
+  height: 800px;
   float:left;
   width: 100%;
   background: #DDDDDD;
+}
+
+#news h2{
+  color:#216393;
+  padding-right: 40px;
+}
+
+#news h3{
+color:#216393;
+padding-left: 2%;
+padding-top: 2%;
+font-size: 20px;
+}
+
+#news p{
+  color:black;
+  padding-left: 2%;
+  padding-top: 2%;
+  font-size: 12px;
+  text-align:inherit;
+}
+
+#news-container{
+  height: 600px;
+  width: 75%;
+  margin-left:11%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-areas:
+  'news1 news2'
+  'news3 news4';
+  grid-gap: 10px;
+}
+
+.news1{
+background-color: white;
+grid-area:news1;
+}
+
+.news2{
+background-color: white;
+grid-area:news2;
+}
+
+.news3{
+background-color: white;
+grid-area:news3;
+}
+
+.news4{
+background-color: white;
+grid-area:news4;
 }
 
 footer{
