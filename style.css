@@ -155,24 +155,25 @@ h1{
   margin: 0 auto;
   text-align: center;
   width: 1100px;
-  height: 100px;
+  height: 75px;
   background: #f1f1f2;
 }
 
 #votebutton{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
 }
 
-#votebutton p{
-  padding-top: 16px;
+#number{
   font-size: 14px;
 }
 
 #votebutton2{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -185,6 +186,7 @@ h1{
 
 #votebutton3{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -197,6 +199,7 @@ h1{
 
 #votebutton4{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -209,6 +212,7 @@ h1{
 
 #votebutton5{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -220,6 +224,7 @@ h1{
 
 #votebutton6{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -232,6 +237,7 @@ h1{
 
 #votebutton7{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -244,6 +250,7 @@ h1{
 
 #votebutton8{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -256,6 +263,7 @@ h1{
 
 #votebutton9{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -268,6 +276,7 @@ h1{
 
 #votebutton10{
   float: left;
+  margin: 20px 0 0 20px;
   width: 26px;
   height: 15px;
   background-image: url("media/vote.png");
@@ -279,19 +288,19 @@ h1{
 }
 
 #lessonplanfrontcontainer{
-  margin: 50px 0 0 0;
+  left: 10%;
+  margin: 70px 0 0 0;
   text-align: center;
   width: 1100px;
-  margin: 0 auto;
+  position: absolute;
 }
 
 #forumfrontcontainer{
-  left: 12%;
   display: none;
-  margin: 50px 0 0 0;
+  left: 10%;
+  margin: 70px 0 0 0;
   text-align: center;
   width: 1100px;
-  margin: 0 auto;
   position: absolute;
 }
 
@@ -306,14 +315,7 @@ h1{
 .posttext{
   color: #646464;
   font-size: 18px;
-  margin: 20px 0 0 10px;
-  float: left;
-}
-
-#posttext{
-  color: #646464;
-  font-size: 18px;
-  margin: 20px 0 0 10px;
+  margin: 25px 0 0 20px;
   float: left;
 }
 
@@ -387,6 +389,42 @@ h1{
   width: 1100px;
   height: 500px;
   margin: 0 auto;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-areas:
+    'menu menu right'
+    'menu menu right2';
+  grid-gap: 10px;
+}
+
+
+.news1 {
+  grid-area: main;
+ }
+.news2 {
+  grid-area: main;
+}
+.news3 {
+  grid-area: main;
+}
+.news4 {
+  grid-area: main;
+}
+
+.news-container {
+  display: grid;
+  grid-template-areas:
+    'main main'
+    'main main';
+  grid-gap: 10px;
+  background: grey;
+}
+
+.grid-container {
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  padding-bottom: 80px;
   display: grid;
   grid-template-areas:
     'menu menu right'
@@ -436,7 +474,7 @@ h1{
   height: 400px;
   float:left;
   width: 100%;
-  background: orange;
+  background: #DDDDDD;
 }
 
 footer{
