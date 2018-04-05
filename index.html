@@ -48,15 +48,15 @@ function openPopupMenu(){
 function closePopupMenu(){
   popupDiv.style.display = "none";
   localStorage.setItem("emailinput", email);
-  localStorage.setItem("password-input", password);
+  localStorage.setItem("passwordinput", password);
   console.log(password)
 }
 
 function setInput(){
   localStorage.setItem("emailinput", email);
-  localStorage.setItem("password-input", password);
+  localStorage.setItem("passwordinput", password);
   var email = document.getElementById("emailinput").value;
-  var password = document.getElementById("password-input").value;
+  var password = document.getElementById("passwordinput").value;
   alert(password, email);
 }
 
