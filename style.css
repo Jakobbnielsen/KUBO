@@ -630,3 +630,35 @@ header nav{
   background: #FFF !important;
   color: #00A19B;
 }
+
+#lessonplans{
+  display: grid;
+}
+
+.lessonplanoverview{
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-areas:
+    'menu menu'
+    'menu menu';
+  grid-gap: 10px;
+}
+
+.plan1 {
+  grid-area: menu;
+ }
+
+ .plan2 {
+   grid-area: menu;
+  }
+
+  .plan3 {
+    grid-area: menu;
+   }
+
+   .plan4 {
+     grid-area: menu;
+    }
