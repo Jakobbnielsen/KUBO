@@ -98,10 +98,7 @@ button:hover{
 
 h1{
   font-size: 60px;
-  color: #FFF;
   margin-bottom: 30px;
-  font-family: "CabinSketch-Bold", Verdana;
-
 }
 
 .tagline{
@@ -535,4 +532,39 @@ header nav{
 .logo{
   float: left;
   padding-left: 35px;
+}
+
+
+
+/* LESSONPLANS.HTML STYLE */
+
+#categories{
+  width: 100%;
+  background: #00A19B;
+  color: #FFF;
+  padding: 0 0 20px 0;
+  z-index: 10000;
+}
+
+
+.categories{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.categories p{
+  background: rgba(255,255,255,0.3);
+  cursor: pointer;
+  display: inline;
+  padding: 8px 12px;
+  margin-left: 8px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.chosen{
+  background: #FFF !important;
+  color: #00A19B;
 }
