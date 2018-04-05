@@ -477,6 +477,43 @@ h1{
   background: #DDDDDD;
 }
 
+#news h2{
+  color:#216393;
+}
+
+#news h3{
+  text-align:left;
+  font-size: 22px;
+  margin-left:3%;
+  margin-top: 3%;
+}
+
+#news p{
+  text-align:left;
+  font-size: 12px;
+  margin-left:3%;
+  margin-top: 3%;
+  color: #646464;
+}
+
+.news1{
+  float:left;
+  background: white;
+  height: 250px;
+  width: 450px;
+  margin-left:11%;
+  margin-top: 7.5%;
+}
+
+.news2{
+  float:right;
+  background: white;
+  height: 250px;
+  width: 450px;
+  margin-right:11%;
+  margin-top:7.5%;
+}
+
 footer{
   height: 200px;
   float:left;
