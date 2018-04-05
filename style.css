@@ -485,25 +485,39 @@ footer{
 }
 
 .footer-container{
-grid-template-columns: 10px;
+padding-top: 50px;
+grid-template-columns;
+grid-gap: 10px;
   display:grid;
   grid-template-areas:
-  'footer1''footer2''footer3'
+  'footer1 footer2 footer3'
 }
 
-.footer1{
+.footer1 {
+  color:#ffffff;
+  margin-right: ;
+  padding-left:350px ;
   text-align: left;
-  grid-area: footer-container
+  grid-area: footer1;
+}
+
+.footer1 a{
+  color:#ffffff;
+  text-decoration: none;
 }
 
 .footer2{
+  color:#ffffff;
   text-align: center;
-  grid-area: footer-container
+  grid-area: footer2;
 }
 .footer3{
-  text-align: right;
-  grid-area: footer-container
+  color:#ffffff;
+  padding-right:350px ;
+  text-align: left;
+  grid-area: footer3;
 }
+
 
 .overlay{
   position: relative;
