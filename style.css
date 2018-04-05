@@ -647,33 +647,85 @@ header nav{
 }
 
 #lessonplans{
-  display: grid;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.details{
+  margin: 87px 0 0 0;
 }
 
 .lessonplanoverview{
-  width: 1100px;
-  height: 500px;
   margin: 0 auto;
   padding-bottom: 80px;
   display: grid;
   grid-template-areas:
-    'menu menu'
-    'menu menu';
+    'plan1 plan2'
+    'plan3 plan4';
   grid-gap: 10px;
 }
 
+.lessonplanoverview img{
+  display: inline;
+}
+
+.level{
+  display: inline;
+  font-size: 13px;
+  margin-right: 16px;
+}
+
+.time{
+  display: inline;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.lessonplanoverview h3{
+  font-size: 24px;
+  padding: 0 0 10px 0;
+}
+
+.author{
+  text-decoration: underline;
+}
+
+.lessonplandetails{
+  background: #00A19B;
+  margin: 0;
+  color: #FFF;
+  width: 47%;
+  margin: 0;
+  padding: 12px;
+  display: inline-block;
+}
+
+.lessonplanimg{
+  margin: 0;
+}
+
+.lessonplanimg img{
+  width: 48%;
+  height: 250px;
+  float: left;
+}
+
 .plan1 {
-  grid-area: menu;
+  background-color: grey;
+  grid-area: plan1;
  }
 
- .plan2 {
-   grid-area: menu;
-  }
+.plan2 {
+  background-color: grey;
+  grid-area: plan2;
+}
 
-  .plan3 {
-    grid-area: menu;
-   }
+.plan3 {
+  background-color: grey;
+  grid-area: plan3;
+}
 
-   .plan4 {
-     grid-area: menu;
-    }
+.plan4 {
+  background-color: grey;
+  grid-area: plan4;
+}
