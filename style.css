@@ -481,7 +481,28 @@ footer{
   height: 200px;
   float:left;
   width: 100%;
-  background: green;
+  background-color: #044C7F;
+}
+
+.footer-container{
+grid-template-columns: 10px;
+  display:grid;
+  grid-template-areas:
+  'footer1''footer2''footer3'
+}
+
+.footer1{
+  text-align: left;
+  grid-area: footer-container
+}
+
+.footer2{
+  text-align: center;
+  grid-area: footer-container
+}
+.footer3{
+  text-align: right;
+  grid-area: footer-container
 }
 
 .overlay{
