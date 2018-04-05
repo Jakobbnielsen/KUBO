@@ -32,7 +32,7 @@
       <input type="text" id="country" placeholder="Country">
       <input type="text" id="city" placeholder="City">
       <input type="text" id="school" placeholder="School">
-      <button type="submit" id="button" value="login" onclick="getInfo()">CREATE USER</button>
+      <button type="submit" id="button" value="login" onclick="setInput()">CREATE USER</button>
     </form>
     <div id="close-popup" title="Close popup" onclick="closePopupMenu()">
       <p>X</p>
@@ -47,20 +47,22 @@ function openPopupMenu(){
 }
 function closePopupMenu(){
   popupDiv.style.display = "none";
+  localStorage.setItem("emailinput", email);
+  localStorage.setItem("password-input", password);
+  console.log(password)
 }
 
-function getInfo(){
+function setInput(){
+  localStorage.setItem("emailinput", email);
+  localStorage.setItem("password-input", password);
   var email = document.getElementById("emailinput").value;
-  var password = document.getElementById("passwordinput").value;
-  localStorage.setItem("emailinput",email);
-  localStorage.setItem("passwordinput",password);
-  alert(password);
+  var password = document.getElementById("password-input").value;
+  alert(password, email);
 }
 
 function login(){
-if(password.value == document.getElementById('password').value)
-{
-  window.open("dashboard.html");
+if (localStorage.password == document.getElementById("password".value)) {
+window.open("dashboard.html");
 }
 else{
   alert("Wrong email/password");
