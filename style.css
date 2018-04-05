@@ -487,12 +487,6 @@ background-color: white;
 grid-area:news1;
 }
 
-.border1{
-  height:30px;
-  background-color:#216393;
-  text-align: center;
-}
-
 .news2{
 background-color: white;
 grid-area:news2;
