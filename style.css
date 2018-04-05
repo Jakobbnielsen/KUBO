@@ -453,15 +453,14 @@ h1{
 }
 
 #news h3{
-color:#216393;
-padding-left: 4%;
-padding-top: 2%;
+color:#ffffff;
 font-size: 20px;
 }
 
 #news p{
   color:black;
   padding-left: 4%;
+  padding-right: 4%;
   padding-top: 3%;
   font-size: 14px;
   text-align:left;
@@ -508,10 +507,22 @@ grid-area:news4;
 
 
 
-#newsbutton{
+button.newsbutton{
   height: 55px;
-  background-color: #216393;
+  width: 40%;
+  background-color: #044C7F;
   margin-top: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.newsbutton:hover{
+  background-color: #216393;
+}
+
+.news-content{
+  max-height: 0px;
+  overflow: hidden;
 }
 
 footer{
