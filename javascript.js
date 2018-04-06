@@ -103,16 +103,3 @@ document.getElementById('number10').value = value;
 document.getElementById('votebutton10').style.backgroundImage = 'url(media/upvote.png)';
 
 }
-
-var accordions = document.getElementByClassName("newsbutton")
-for (var i = 0; i < accordions.length; i++) {
-  accordions[i].onclick = function (){
-    var content = this.nextElementSibling;
-
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  }
-}

@@ -117,36 +117,35 @@
       </section>
       <section id="news">
         <h2>NEWS</h2>
-        
+
           <div class="news-container">
 
 
-              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide</h3></button>
-              <div class="news-content">
+              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide #1</h3></button>
+              <div class="news-content news1">
               <p>KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
             </div>
 
 
-              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide</h3></button>
-              <div class="news-content">
+              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide #2</h3></button>
+              <div class="news-content news2">
                 <p>KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
               </div>
 
-              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide</h3></button>
-              <div class="news-content">
+              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide #3</h3></button>
+              <div class="news-content news3">
                 <p>KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
               </div>
 
 
-              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide</h3></button>
-              <div class="news-content">
+              <button class="newsbutton"><h3>KEDU is now the most selling for robotos worldwide #4</h3></button>
+              <div class="news-content news4">
                 <p>KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
             </div>
-
+              <div class="push"></div>
           </div>
       </section>
     </main>
-
     <footer>
       <div class="footer-container">
         <div class="footer1"><h3>Navigation</h3><br>
@@ -159,5 +158,20 @@
             <div class="footer3"><h3>Contact us</h3><br><p>Niels Bohrs Allé 185, 5220 Odense SØ<br>Kubo-robot.com<br>contact@kedu.com</div>
             </div>
     </footer>
+    <script>
+    var accordions = document.getElementsByClassName("newsbutton");
+    for (var i = 0; i < accordions.length; i++) {
+      accordions[i].onclick = function funct(){
+        var content = this.nextElementSibling;
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      }
+    }
+
+    </script>
   </body>
 </html>
