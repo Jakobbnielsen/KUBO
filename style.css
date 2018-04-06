@@ -8,6 +8,10 @@
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
 }
 
+body{
+  background-color: #F1F1F2;
+}
+
 main{
   width: 100%;
   float: left;
@@ -650,6 +654,11 @@ header nav{
   display: inline-block;
   border-radius: 4px;
   font-size: 14px;
+  transition: background-color 0.3s linear;
+}
+
+.categories p:hover{
+  background-color: rgba(255,255,255,0.6);
 }
 
 .chosen{
@@ -692,13 +701,18 @@ header nav{
   margin-bottom: 4px;
 }
 
-.lessonplanoverview h3{
+.lectionname{
   font-size: 24px;
+  text-decoration: none;
+  color: #FFF;
   padding: 0 0 10px 0;
 }
 
 .author{
-  text-decoration: underline;
+  color: #FFF;
+  padding-top: 10px;
+  font-size: 13px;
+  display: inline-block;
 }
 
 .lessonplandetails{
@@ -739,4 +753,84 @@ header nav{
 .plan4 {
   background-color: grey;
   grid-area: plan4;
+}
+
+
+
+/* LESSONPLAN1.HTML STYLE */
+
+#top{
+  background-color: #00A19B;
+  width: 100%;
+  color: white;
+  padding: 0;
+}
+
+.topdiv{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.topdiv h1{
+  padding: 20px 0 20px 0;
+}
+
+#lessonplancontainer{
+  display: grid;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    'about about about about info'
+    'aside main main main main'
+    'aside main main main main'
+    'aside main main main main'
+    'aside main main main main';
+}
+
+.about{
+  grid-area: about;
+
+}
+
+.info{
+  grid-area: info;
+}
+
+.aside{
+  grid-area: aside;
+    background-color: grey;
+}
+
+.main{
+  grid-area: main;
+    background-color: grey;
+}
+
+.about h3{
+  color: #00A19B;
+  margin: 10px 0 0 15px;
+}
+
+.about p{
+  background-color: #FFF;
+  border-radius: 4px;
+  color: #646464;
+  padding: 10px 15px;
+  margin: 10px 0 0 0;
+}
+
+.info h3{
+  color: #00A19B;
+  margin: 10px 0 0 15px;
+}
+
+.info p{
+  background-color: #969696;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 10px 15px;
+  margin: 10px 0 0 0;
 }
