@@ -8,11 +8,6 @@
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
 }
 
-html{
-  position: relative;
-  min-height: 100%;
-}
-
 body{
   background-color: #F1F1F2;
 }
@@ -400,20 +395,16 @@ h1{
   grid-gap: 10px;
 }
 
-.bigimagetext{
-  color: white;
-  font-size: 24px;
-  margin: 450px 0 0 20px;
-  float: left;
-  bottom: 0;
-}
-
-.smallimagetext{
-  color: white;
-  font-size: 17px;
-  margin: 200px 0 0 20px;
-  float: left;
-  bottom: 0;
+.grid-container {
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-areas:
+    'menu menu right'
+    'menu menu right2';
+  grid-gap: 10px;
 }
 
 .grid-container > div {
@@ -548,12 +539,9 @@ button.newsbutton:hover{
 
 footer{
   height: 200px;
+  float:left;
   width: 100%;
   background-color: #044C7F;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
 }
 
 .footer-container{
@@ -566,11 +554,10 @@ grid-gap: 10px;
 }
 
 .footer1 {
-  position: relative;
-  bottom: 0;
-  margin-top: -180px; /* negative value of footer height */
-  height: 180px;
-  clear:both;
+  color:#ffffff;
+  padding-left:350px ;
+  text-align: left;
+  grid-area: footer1;
 }
 
 .footer1 a{
@@ -603,7 +590,8 @@ grid-gap: 10px;
 }
 
 .headerstyle{
-  margin-right: 30px;
+  width: 88%;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -736,9 +724,10 @@ header nav{
 }
 
 .lessonplandetails{
+  background: #00A19B;
   margin: 0;
   color: #FFF;
-  width: 200px;
+  width: 47%;
   margin: 0;
   padding: 12px;
   display: inline-block;
@@ -755,22 +744,22 @@ header nav{
 }
 
 .plan1 {
-  background-color: #00A19B;
+  background-color: grey;
   grid-area: plan1;
  }
 
 .plan2 {
-  background-color: #00A19B;
+  background-color: grey;
   grid-area: plan2;
 }
 
 .plan3 {
-  background-color: #00A19B;
+  background-color: grey;
   grid-area: plan3;
 }
 
 .plan4 {
-  background-color: #00A19B;
+  background-color: grey;
   grid-area: plan4;
 }
 
