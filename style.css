@@ -801,12 +801,14 @@ header nav{
 
 .aside{
   grid-area: aside;
-    background-color: grey;
+    background-color: #00A19B;
+    padding: 10px;
 }
 
 .main{
   grid-area: main;
-    background-color: grey;
+  background-color: #FFFFFF;
+  padding: 0 10px;
 }
 
 .about h3{
@@ -827,10 +829,108 @@ header nav{
   margin: 10px 0 0 15px;
 }
 
-.info p{
+.infobox{
   background-color: #969696;
   border-radius: 4px;
   color: #FFF;
   padding: 10px 15px;
   margin: 10px 0 0 0;
+}
+
+.infobox a{
+  display: block;
+}
+
+.infobox img{
+  display: inline;
+}
+
+.infobox p{
+  display: inline;
+}
+
+.infovote{
+  display: inline;
+  width: 40px;
+  float: left;
+}
+
+.votelesson{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.asidechapter-active{
+  background-image: url('media/activechapter-start.png');
+  background-repeat: no-repeat;
+  height: 108px;
+  background-size: cover;
+  color: #FFF;
+}
+
+.asidechapter-active p{
+  padding: 35px 10px 0 10px;
+}
+
+.asidechapter-inactive{
+  background-image: url('media/inactivechapter.png');
+  background-repeat: no-repeat;
+  height: 130px;
+  margin-top: -15px;
+  background-size: cover;
+  color: #FFF;
+}
+
+.asidechapter-inactive p{
+  padding: 0 10px;
+  width: 120px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.asidechapter-inactive-end{
+  background-image: url('media/inactivechapter-end.png');
+  background-repeat: no-repeat;
+  height: 104px;
+  margin-top: -15px;
+  background-size: cover;
+  color: #FFF;
+}
+
+.asidechapter-inactive-end p{
+  padding: 35px 10px 0 10px;
+}
+
+.lessonvideo{
+  width: 100%;
+}
+
+.chapter{
+  color: #00A19B;
+  margin: 10px 0 0 5px;
+  font-weight: 800;
+}
+
+.main h2{
+  color: #646464;
+  font-weight: 300;
+  float: left;
+  margin: -4px 0 15px 0;
+}
+
+.maintext{
+  background: #F1F1F2;
+  padding: 0 20px 20px 20px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.subheader{
+  color: #00A19B;
+  font-weight: 800;
+  padding: 20px 0 5px 0;
+}
+
+.maintext p{
+  color: #646464;
 }
