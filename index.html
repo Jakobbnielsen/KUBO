@@ -45,7 +45,6 @@ var popupDiv = document.getElementById("popup");
 function openPopupMenu(){
   popupDiv.style.display = "block";
 }
-<<<<<<< HEAD
 function closePopupMenu(){
   popupDiv.style.display = "none";
 }
@@ -63,33 +62,7 @@ if(localStorage.password == document.getElementById("password-input").value){
 }
 else{
   alert("Wrong email/password");
-=======
-
-function setInput(){
-  var email = document.getElementById("emailinput").value;
-  var password = document.getElementById("passwordinput").value;
-  localStorage.setItem("emailinput", email);
-  localStorage.setItem("passwordinput", password);
-  /*
-  var passString = JSON.stringify(passStringBackToArray);
-  localStorage.setItem("passwordinput", passString);
-  */
 }
-
-function closePopupMenu(){
-  popupDiv.style.display = "none";
->>>>>>> 8416bd90fcd2524f9a00a0e1ef8c3182bf6251cd
-}
-
-console.log(document.getElementById("passwordinput"));
-
-function login(){
-  if (localStorage.getItem("passwordinput") == document.getElementById("passwordinput").value) {
-    window.open("dashboard.html");
-  }
-  else{
-    alert("Wrong email/password");
-  }
 }
 </script>
   </body>
