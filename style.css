@@ -8,10 +8,6 @@
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
 }
 
-html{
-  position: relative;
-  min-height: 100%;
-}
 
 body{
   background-color: #F1F1F2;
@@ -551,10 +547,10 @@ footer{
   height: 200px;
   width: 100%;
   background-color: #044C7F;
-  position: absolute;
   left: 0;
   bottom: 0;
 }
+
 
 .footer-container{
 padding-top: 50px;
@@ -854,15 +850,46 @@ header nav{
 
 .info h3{
   color: #00A19B;
-  margin: 10px 0 0 15px;
+  margin: 10px 0 10px 15px;
 }
 
 .info p{
+  color: #FFF;
+  padding: 10px 10px 10px 2px;
+  margin: 0 0 0 5px;
+  display: inline-grid;
+}
+
+.infolevel{
+  margin: 1px 1px 1px 10px;
+}
+
+.author{
+  margin: 0 0 0 10px;
+}
+
+.infoclock{
+  margin: 0 0 0 10px;
+}
+
+.infobox{
   background-color: #969696;
   border-radius: 4px;
-  color: #FFF;
-  padding: 10px 15px;
-  margin: 10px 0 0 0;
+  height: 96px
+}
+
+#votebutton11{
+  background-repeat: no-repeat;
+  padding: 0 0 0 0;
+  margin: -70px 15px 0 250px;
+  width: 26px;
+  height: 15px;
+  background-image: url("media/vote.png");
+}
+
+#votebutton11 p{
+  padding-top: 16px;
+  font-size: 14px;
 }
 
 
