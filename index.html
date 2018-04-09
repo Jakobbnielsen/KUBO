@@ -64,7 +64,7 @@ function closePopupMenu(){
 console.log(document.getElementById("passwordinput"));
 
 function login(){
-  if (localStorage.getItem("passwordinput") == document.getElementById("passwordinput").value) {
+  if (localStorage.getItem("passwordinput") == document.getElementById("password").value) {
     window.open("dashboard.html");
   }
   else{
