@@ -45,28 +45,31 @@ var popupDiv = document.getElementById("popup");
 function openPopupMenu(){
   popupDiv.style.display = "block";
 }
-function closePopupMenu(){
-  popupDiv.style.display = "none";
-  localStorage.setItem("emailinput", email);
-  localStorage.setItem("passwordinput", password);
-  console.log(password)
-}
 
 function setInput(){
-  localStorage.setItem("emailinput", email);
-  localStorage.setItem("passwordinput", password);
   var email = document.getElementById("emailinput").value;
   var password = document.getElementById("passwordinput").value;
-  alert(password, email);
+  localStorage.setItem("emailinput", email);
+  localStorage.setItem("passwordinput", password);
+  /*
+  var passString = JSON.stringify(passStringBackToArray);
+  localStorage.setItem("passwordinput", passString);
+  */
 }
 
+function closePopupMenu(){
+  popupDiv.style.display = "none";
+}
+
+console.log(document.getElementById("passwordinput"));
+
 function login(){
-if (localStorage.password == document.getElementById("password".value)) {
-window.open("dashboard.html");
-}
-else{
-  alert("Wrong email/password");
-}
+  if (localStorage.getItem("passwordinput") == document.getElementById("passwordinput").value) {
+    window.open("dashboard.html");
+  }
+  else{
+    alert("Wrong email/password");
+  }
 }
 </script>
   </body>
