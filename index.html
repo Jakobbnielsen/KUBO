@@ -51,10 +51,11 @@ function setInput(){
   var password = document.getElementById("passwordinput").value;
   localStorage.setItem("emailinput", email);
   localStorage.setItem("passwordinput", password);
-  /*
+  var obj = JSON.parse({email:"emailinput", password:"passwordinput"});
+
   var passString = JSON.stringify(passStringBackToArray);
   localStorage.setItem("passwordinput", passString);
-  */
+
 }
 
 function closePopupMenu(){
@@ -64,6 +65,7 @@ function closePopupMenu(){
 console.log(document.getElementById("password", password));
 
 function login(){
+  JSON.parse()
   if (localStorage.getItem("passwordinput") == document.getElementById("password").value) {
     window.open("dashboard.html");
   }
