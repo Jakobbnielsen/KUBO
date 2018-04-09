@@ -444,6 +444,7 @@ h1{
   background: #FFF;
   background-color: #044C7F;
   color: #F1F1F2;
+  transition: background-color 0.2s linear;
 }
 
 .category:hover{
@@ -729,7 +730,7 @@ header nav{
   color: #FFF;
   padding-top: 10px;
   font-size: 13px;
-  display: inline-block;
+  display: block;
 }
 
 .lessonplandetails{
@@ -795,7 +796,6 @@ header nav{
 #lessonplancontainer{
   display: grid;
   width: 80%;
-  height: 500px;
   margin: 0 auto;
   grid-gap: 10px;
   grid-template-areas:
@@ -817,12 +817,26 @@ header nav{
 
 .aside{
   grid-area: aside;
-    background-color: grey;
+    background-color: #00A19B;
+    color: #FFF;
 }
 
 .main{
   grid-area: main;
-    background-color: grey;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.main h2{
+  float: left;
+  color: #646464;
+  font-weight: 300;
+}
+
+.chapter{
+  padding-left: 4px;
+  color: #00A19B;
+  font-weight: 700;
 }
 
 .about h3{
@@ -850,3 +864,59 @@ header nav{
   padding: 10px 15px;
   margin: 10px 0 0 0;
 }
+
+
+.asidechapter-active {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+}
+
+.asidechapter-active:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: #005D5A;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+}
+.asidechapter-active:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: #005D5A;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+}​
+
+.chaptertitle {
+  margin: 10px 0 0 0;
+}​
+
+video{
+  float: left;
+  width: 600px;
+  object-fit: scale-down;
+}​
+
+.maintext {
+  background: #F1F1F2;
+  width: 500px;
+  padding: 20px;
+  float: left;
+}​
