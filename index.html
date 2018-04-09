@@ -17,7 +17,7 @@
     <input type="text" id="email" placeholder="Your email...">
     <input type="password" id="password" placeholder="Your password...">
     <button type="submit" id="button" value="login" onclick="login()">LOGIN</button>
-    <button type="button" id="button" value="signup" onclick="openPopupMenu()">SIGN UP</button>
+    <button type="button" id="button" value="text" onclick="openPopupMenu()">SIGN UP</button>
   </form>
 </main>
 <div id="popup">
@@ -32,7 +32,7 @@
       <input type="text" id="country" placeholder="Country">
       <input type="text" id="city" placeholder="City">
       <input type="text" id="school" placeholder="School">
-      <button type="submit" id="button" value="login" onclick="setInput()">CREATE USER</button>
+      <button type="submit" id="button" value="text" onclick="setInput()">CREATE USER</button>
     </form>
     <div id="close-popup" title="Close popup" onclick="closePopupMenu()">
       <p>X</p>
@@ -61,10 +61,10 @@ function closePopupMenu(){
   popupDiv.style.display = "none";
 }
 
-console.log(document.getElementById("passwordinput"));
+console.log(document.getElementById("password", password));
 
 function login(){
-  if (localStorage.getItem("passwordinput") == document.getElementById("passwordinput").value) {
+  if (localStorage.getItem("passwordinput") == document.getElementById("password").value) {
     window.open("dashboard.html");
   }
   else{
