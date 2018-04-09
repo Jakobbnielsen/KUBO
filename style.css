@@ -4,6 +4,80 @@
   font-family: 'Lato', Verdana;
 }
 
+.forumsubject{
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0 auto;
+  color: #FFF;
+  padding: 20px 0 20px 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #DDDDDD;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.forumsubject:hover{
+  background-color: #E8E8E8;
+}
+
+.forumsubject img{
+  display: inline;
+}
+
+.forumsubject h4{
+  color: #005D5A;
+  font-weight: 600;
+  padding: 0 0 4px 5px;
+}
+
+.forumsubject p{
+  font-size: 14px;
+  padding-left: 5px;
+  color: #ADADAD;
+  display: inline;
+}
+
+.forumright{
+  float: right;
+  padding-right: 10px;
+  margin-top: -10px;
+}
+
+.forumright img{
+  margin-top: 10px;
+}
+
+.forumright p{
+  margin-right: 15px;
+}
+
+.forumtitle{
+  float: left;
+  background: #216393;
+  width: 100%;
+  float: left;
+  display: block;
+  border-radius: 4px;
+  color: #FFF;
+}
+
+.forumtitle h3{
+  padding: 10px 15px 10px 18px;
+}
+
+#forums {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 4px;
+}​
+
+.forumtitle h4{
+  color: red !important;
+}​
+
 @font-face {
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
 }
@@ -334,39 +408,6 @@ h1{
   justify-content: space-between;
 }
 
-.bigimage{
-  max-width: 1000px;
-  flex: 2;
-}
-
-.bigimage img{
-  width: 100%;
-}
-
-.smallimage{
-  display: flex;
-  max-width: 350px;
-  flex-direction: column;
-  flex: 1;
-}
-
-.smallimage2{
-  max-width: 450px;
-  justify-content: flex-end;
-  flex-direction: column;
-  flex: 1;
-}
-
-.smallimage img{
-  width: 100%;
-}
-
-.test{
-  width: 100%;
-  height: 100%;
-}
-
-
 
 
 .item1 {
@@ -562,7 +603,7 @@ grid-template-columns;
 grid-gap: 10px;
   display:grid;
   grid-template-areas:
-  'footer1 footer2 footer3'
+  'footer1 footer2 footer3';
 }
 
 .footer1 {
@@ -586,7 +627,7 @@ padding-left:550px;
 .footer3{
   color:#ffffff;
   padding-left: 40px;
-  padding-right:330px ;
+  padding-right:330px;
   text-align: left;
   grid-area: footer3;
 }
@@ -631,7 +672,7 @@ header li{
 header nav{
   float:right;
   margin-top:10px;
-  color: #646464
+  color: #646464;
 }
 
 .current{
@@ -919,4 +960,21 @@ video{
   width: 500px;
   padding: 20px;
   float: left;
+}​
+
+/* FORUMS STYLE */
+
+#forums {
+  width: 80%;
+  height: 200px;
+  float:left;
+  background: green;
+}​
+
+.forumtitle{
+  background: blue;
+}​
+
+.forumtitle h4 {
+  color: blue;
 }​
