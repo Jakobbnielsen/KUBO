@@ -551,7 +551,6 @@ footer{
   height: 200px;
   width: 100%;
   background-color: #044C7F;
-  position: absolute;
   left: 0;
   bottom: 0;
 }
@@ -813,6 +812,8 @@ header nav{
 
 .info{
   grid-area: info;
+  background-color: #969696;
+  border-radius: 4px;
 }
 
 .aside{
@@ -858,13 +859,22 @@ header nav{
 }
 
 .info p{
-  background-color: #969696;
-  border-radius: 4px;
   color: #FFF;
   padding: 10px 15px;
   margin: 10px 0 0 0;
 }
 
+#lessonicons{
+  display: inline;
+}
+
+.infolevel{
+  display: inline;
+}
+
+.infoclock{
+  display:inline;
+}
 
 .asidechapter-active {
   position: relative;
