@@ -4,6 +4,36 @@
   font-family: 'Lato', Verdana;
 }
 
+.threadinfo{
+  width: 15%;
+  float: left;
+  background: grey;
+    padding: 20px;
+}
+
+.threadcontent{
+  width: 75%;
+  float: left;
+  padding: 20px;
+  background-color: #FFF;
+}
+
+.forumsubject{
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  color: #FFF;
+  padding: 20px 0 18px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #DDDDDD;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.forumsubject:hover{
+  background-color: #E8E8E8;
+}
+
 
 #userpage {
   width: 80%;
@@ -31,23 +61,6 @@
   float: right;
 }​
 
-.forumsubject{
-  width: 100%;
-  float: left;
-  display: block;
-  margin: 0 auto;
-  color: #FFF;
-  padding: 20px 0 20px 10px;
-  background-color: #fff;
-  border-bottom: 1px solid #DDDDDD;
-  transition: background-color 0.5s;
-  cursor: pointer;
-}
-
-.forumsubject:hover{
-  background-color: #E8E8E8;
-}
-
 .forumsubject img{
   display: inline;
 }
@@ -55,33 +68,40 @@
 .forumsubject h4{
   color: #005D5A;
   font-weight: 600;
-  padding: 0 0 4px 5px;
+  padding: 0 0 3px 15px;
 }
 
 .forumsubject p{
   font-size: 14px;
-  padding-left: 5px;
+  padding-left: 15px;
   color: #ADADAD;
+  display: inline;
+}
+
+.forumleft{
+  float: left;
   display: inline;
 }
 
 .forumright{
   float: right;
-  padding-right: 10px;
-  margin-top: -10px;
+  display: inline;
+  padding-right: 20px;
 }
 
 .forumright img{
   margin-top: 10px;
+  vertical-align: center;
 }
 
 .forumright p{
-  margin-right: 15px;
+  padding: 0 10px 0 5px;
+  vertical-align: center;
 }
 
 .forumtitle{
   float: left;
-  background: #216393;
+  background: #044C7F;
   width: 100%;
   float: left;
   display: block;
@@ -95,15 +115,11 @@
 
 #forums {
   width: 80%;
-  height: 200px;
   margin: 0 auto;
   background: #FFF;
   border-radius: 4px;
 }​
 
-.forumtitle h4{
-  color: red !important;
-}​
 
 @font-face {
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
@@ -717,17 +733,51 @@ header nav{
   background: #00A19B;
   color: #FFF;
   padding: 0 0 20px 0;
-  z-index: 10000;
 }
 
+#forumtop{
+  width: 100%;
+  background: #044C7F;
+  color: #FFF;
+  margin-bottom: 30px;
+  padding: 0 0 20px 0;
+}
 
-.categories{
+.topbar h1{
+  margin: 0;
+  font-weight: 100;
+  font-size: 48px;
+  letter-spacing: 2px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.topbar img{
+  padding: 0 16px 0 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.topcat{
+  width: 100%;
+  padding-top: 20px;
+
+}
+
+.topbar{
   width: 80%;
   margin: 0 auto;
 }
 
+.categories{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0 30px 0;
+}
+
 .categories p{
-  background: rgba(255,255,255,0.3);
+  background: rgba(0,161,155,0.5);
+  color: #FFF;
   cursor: pointer;
   display: inline;
   padding: 8px 12px;
@@ -740,12 +790,16 @@ header nav{
 }
 
 .categories p:hover{
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(0,161,155,0.8);
 }
 
 .chosen{
-  background: #FFF !important;
+  background: #00A19B !important;
   color: #00A19B;
+}
+
+#lessonplan{
+  padding: 0;
 }
 
 #lessonplans{
