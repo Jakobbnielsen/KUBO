@@ -158,17 +158,6 @@
               </div>
       </footer>
     <script>
-    (function() {
-       var offsetHeight = document.getElementById('mainid').offsetHeight;
-       var screenHeight = screen.height;
-
-   if(offsetHeight < screenHeight){
-       document.getElementById("footer").style.position = "fixed";
-       document.getElementById("footer").style.bottom = "0";
-       document.getElementById("footer").style.left = "0";
-   }
-   })();
-
     var accordions = document.getElementsByClassName("newsbutton");
     for (var i = 0; i < accordions.length; i++) {
       accordions[i].onclick = function funct(){
