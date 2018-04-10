@@ -534,10 +534,11 @@ font-size: 20px;
 }
 
 #news p{
-  color:black;
-  padding-left: 4%;
-  padding-right: 4%;
-  padding-top: 3%;
+  color:#646464;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:5%;
+  padding-bottom: 5%;
   font-size: 14px;
   text-align:left;
   line-height: 1.3;
@@ -592,7 +593,7 @@ grid-area:news4;
 
 
 button.newsbutton{
-  height: 55px;
+  height: 65px;
   width: 100%;
   background-color: #044C7F;
   margin-top: 50px;
@@ -605,7 +606,7 @@ button.newsbutton:hover{
 }
 
 .news-content{
-  padding: 0 20px;
+  padding: ;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
