@@ -927,7 +927,6 @@ header nav{
 
 .about{
   grid-area: about;
-
 }
 
 .info{
@@ -969,6 +968,7 @@ header nav{
   color: #646464;
   padding: 10px 15px;
   margin: 10px 0 0 0;
+  height: 75px;
 }
 
 .info h3{
@@ -1022,7 +1022,7 @@ header nav{
   padding: 12px;
   margin-bottom: 6px;
   height: 60px;
-  width: 200px;
+  width: 70%;
 }
 
 .asidechapter-active:before {
@@ -1060,8 +1060,7 @@ header nav{
 
 video{
   float: left;
-  width: 600px;
-  object-fit: scale-down;
+  width: 70%;
 }​
 
 .maintext {
