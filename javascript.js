@@ -103,3 +103,13 @@ document.getElementById('number10').value = value;
 document.getElementById('votebutton10').style.backgroundImage = 'url(media/upvote.png)';
 
 }
+
+function lessonvotebutton1()
+{
+var value = parseInt(document.getElementById('lessonplannumber1').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('lessonplannumber1').value = value;
+document.getElementById('lessonvotebutton1').style.backgroundImage = 'url(media/lessonplanupvote.png)';
+
+}
