@@ -4,6 +4,7 @@
   font-family: 'Lato', Verdana;
 }
 
+
 #lessonplancontainer{
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -666,7 +667,6 @@ button.newsbutton:hover{
 }
 
 .news-content{
-  padding: ;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
@@ -954,6 +954,12 @@ header nav{
   padding: 20px 0 20px 0;
 }
 
+.author-profile{
+  margin: 0 auto;
+  grid-area: author;
+
+}
+
 #lessonplancontainer{
   display: grid;
   width: 80%;
@@ -964,7 +970,7 @@ header nav{
     'aside main main main main'
     'aside main main main main'
     'aside main main main main'
-    'aside main main main main';
+    'aside author author author author';
 }
 
 .about{
@@ -1103,9 +1109,6 @@ video{
   width: 100%;
 }​
 
-.author-profile{
-  padding-right: 50px;
-}
 
 
 .profile-picture{
