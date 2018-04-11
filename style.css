@@ -1002,7 +1002,7 @@ header nav{
 
 .info p{
   color: #FFF;
-  padding: 10px 10px 10px 2px;
+  padding: 5px 5px 5px 2px;
   margin: 0 0 0 5px;
   display: inline-grid;
 }
@@ -1028,15 +1028,25 @@ header nav{
 #votebutton11{
   background-repeat: no-repeat;
   padding: 0 0 0 0;
-  margin: -70px 15px 0 250px;
+  margin: -55px 15px 0 250px;
   width: 26px;
   height: 15px;
-  background-image: url("media/vote.png");
+  background-image: url("media/votewhite.png");
 }
 
 #votebutton11 p{
   padding-top: 16px;
   font-size: 14px;
+  color: #fff;
+}
+
+.votenumber-white{
+  width: 100%;
+  box-shadow: none;
+  margin: 4px 0 0 -18px;
+  background: none;
+  -webkit-touch-callout: none;
+  color: white;
 }
 
 
