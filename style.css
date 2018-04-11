@@ -4,44 +4,95 @@
   font-family: 'Lato', Verdana;
 }
 
-#lessonplancontainer{
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+.testcontainer {
+  width: 80%;
+  margin: 0 auto;
 }
 
-#lessonplancontainer aside{
-  background: red;
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.lessonplan-aside{
+  background-color: #f1f1f1;
+  width: 15%;
+  min-width: 160px;
+  margin-right: 10px;
+  background-color: blue;
+}
+
+.lessonplan-main{
+  background-color: blue;
+  width: 85%;
+}
+
+.lessonplan{
+  width: 100%;
+  margin: 10px 0;
+  background: green;
+}
+
+
+
+
+#lessonplancontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.aside2{
   width: 200px;
 }
 
-#lessonplancontainer aside p{
+.aside2 div{
+  display: block;
+}
+
+.aside2 div p{
   background: rgba(0,161,155,0.5);
   color: #FFF;
   cursor: pointer;
   display: block;
   padding: 8px 12px;
-  margin-left: 8px;
-  margin-top: 20px;
+  margin-top: 12px;
   display: inline-block;
   border-radius: 4px;
   font-size: 14px;
   transition: background-color 0.3s linear;
 }
 
-#lessonplancontainer aside p:hover{
+.aside2 p:hover{
   background-color: rgba(0,161,155,0.8);
 }
 
-#lessonplancontainer main{
+.chosen{
+  background: #00A19B !important;
+  color: #00A19B;
+}
+
+.aside2 h3{
+  color: #00A19B;
+  margin: 20px 0 -4px 0;
+}
+
+.topcategory{
+  margin: 0 !important;
+}
+
+
+
+
+.main2{
   background: blue;
-  flex: 75%;
+  width: 800px;
 }
 
 .searchbar{
   display: inline;
   float: right;
-  width: 50%;
+  width: 10px;
 }
 
 .searchbar input{
@@ -834,11 +885,6 @@ header nav{
 
 .categories p:hover{
   background-color: rgba(0,161,155,0.8);
-}
-
-.chosen{
-  background: #00A19B !important;
-  color: #00A19B;
 }
 
 #lessonplan{
