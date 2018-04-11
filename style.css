@@ -280,7 +280,7 @@ display: block;
   padding: 10px 15px 10px 18px;
 }
 
-#forums {
+.forums {
   width: 80%;
   margin: 0 auto;
   background: #FFF;
@@ -1312,24 +1312,3 @@ video{
 margin: auto;
 text-align: center;
 }
-
-
-/* FORUMS STYLE */
-
-#forums {
-  width: 80%;
-  height: 200px;
-  float:left;
-  background: green;
-}​
-
-.forumtitle{
-  background: blue;
-}​
-
-.forumtitle h4 {
-  color: blue;
-}​
-
-
-/*Userpage style*/
