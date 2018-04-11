@@ -370,6 +370,7 @@ button{
   border: none;
   color: #00A19B;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s linear;
 }
 
 button:hover{
@@ -1050,7 +1051,6 @@ header nav{
 }
 
 
-
 /* LESSONPLAN1.HTML STYLE */
 
 #top{
@@ -1256,6 +1256,52 @@ video{
 }​
 
 /*  Comment section */
+
+.comment-top{
+}
+
+#comment-section{
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+.comment-title{
+  background-color: #00A19B;
+  color: #FFF;
+  border-radius: 4px;
+}
+
+.comment-title h3{
+  padding: 10px;
+}
+
+.main-comment{
+  background-color: #FFF;
+}
+
+#comment-section textarea {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 98%;
+  height: 150px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+
+  line-height: 1.4em;
+}
+
+.comment-top button{
+margin: auto;
+text-align: center;
+}
 
 
 /* FORUMS STYLE */
