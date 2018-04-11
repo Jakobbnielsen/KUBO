@@ -63,6 +63,7 @@ font-weight: 500;
   color: #ADADAD;
 }
 
+<<<<<<< HEAD
 .lessonplan-right p{
   color: #646464;
 }
@@ -79,6 +80,8 @@ display: block;
   display: inline;
 }
 
+=======
+>>>>>>> 902b21803fe4ddbe4777d695b2806e35ef5b8b8c
 #lessonplancontainer{
   display: flex;
   justify-content: center;
@@ -758,7 +761,6 @@ button.newsbutton:hover{
 }
 
 .news-content{
-  padding: ;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
@@ -1041,6 +1043,44 @@ header nav{
   padding: 20px 0 20px 0;
 }
 
+.author-profile{
+  margin: 0 auto;
+  padding: 0 0 0 125px;
+  grid-area: author;
+}
+
+.profile-picture{
+  margin: 1% 3% 3% 2%;
+  padding: 0 0 0 65px;
+  float:left;
+}
+
+
+.name{
+  color: black;
+  font-size: 20px;
+}
+
+.author-info{
+  color: #646464;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.author-stats{
+  color: #00A19B;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline;
+}
+
+.author-stats1{
+  color: #005DA5;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline;
+}
+
 #lessonplancontainer{
   display: grid;
   width: 80%;
@@ -1051,7 +1091,7 @@ header nav{
     'aside main main main main'
     'aside main main main main'
     'aside main main main main'
-    'aside main main main main';
+    'aside author author author author';
 }
 
 .about{
@@ -1189,7 +1229,6 @@ video{
   float: left;
   width: 100%;
 }​
-
 
 
 /* FORUMS STYLE */
