@@ -4,6 +4,9 @@
   font-family: 'Lato', Verdana;
 }
 
+
+
+
 #lessonvotebutton1{
   float: left;
   margin: 70px 0 0 20px;
@@ -15,8 +18,9 @@
 .votenumber121{
   width: 100%;
   box-shadow: none;
-  margin: 12px 0 0 -12px;
+  margin: 12px 0 0 -16px;
   background: none;
+  font-size: 14px;
   -webkit-touch-callout: none;
 }
 
@@ -34,7 +38,7 @@
 .lessonplan-aside{
   background-color: #f1f1f1;
   width: 15%;
-  min-width: 160px;
+  min-width: 180px;
   margin-right: 10px;
 }
 
@@ -47,7 +51,7 @@
 .lessonplan{
   display: flex;
   width: 100%;
-  margin: 10px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #DDDDDD;
 }
 
@@ -58,31 +62,33 @@
 
 .lessonplan-left{
   width: 350px;
-  margin-right: 10px;
 }
 
 .lessonplan-left img{
-  width: 350px;
+  width: 100%;
 }
 
 .lessonplan-right{
   width: 600px;
   display: inline;
   width: 50%;
+  padding: 0 20px;
 }
 
 .lessonplan-right h2{
 color: #646464;
-font-size: 30px;
+padding-bottom: 4px;
+font-size: 24px;
 font-weight: 700;
 }
 
 .lessonplan-right a{
-  border-bottom: 1px solid green;
   color: #ADADAD;
 }
 
 .lessonplan-right p{
+  padding: 12px 0 20px 0;
+  line-height: 22px;
   color: #646464;
 }
 
@@ -91,14 +97,17 @@ display: block;
 }
 
 .lessonplan-bottom img{
+  padding: 0 4px 0 10px;
+  vertical-align: center;
   display: inline;
 }
 
 .lessonplan-bottom p{
+  vertical-align: center;
   display: inline;
   color: #ADADAD;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .aside2{
@@ -150,7 +159,7 @@ display: block;
 .searchbar{
   display: inline;
   float: right;
-  width: 10px;
+  width: 300px;
 }
 
 .searchbar input{
@@ -886,6 +895,7 @@ header nav{
   background: #00A19B;
   color: #FFF;
   padding: 0 0 20px 0;
+  margin-bottom: 20px;
 }
 
 #forumtop{
