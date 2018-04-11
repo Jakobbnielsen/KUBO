@@ -4,6 +4,22 @@
   font-family: 'Lato', Verdana;
 }
 
+#lessonvotebutton1{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+.votenumber121{
+  width: 100%;
+  box-shadow: none;
+  margin: 12px 0 0 -12px;
+  background: none;
+  -webkit-touch-callout: none;
+}
+
 .testcontainer {
   width: 80%;
   margin: 0 auto;
@@ -25,24 +41,69 @@ html{
   width: 15%;
   min-width: 160px;
   margin-right: 10px;
-  background-color: blue;
 }
 
 .lessonplan-main{
-  background-color: blue;
+  background-color: #FFF;
+  border-radius: 4px;
   width: 85%;
 }
 
 .lessonplan{
+  display: flex;
   width: 100%;
   margin: 10px 0;
-  background: green;
+  border-bottom: 1px solid #DDDDDD;
 }
 
+.lessonplan-vote{
+  width: 76px;
+  min-width: 76px;
+}
 
-#lessonplancontainer{
-  display: flex;
-  justify-content: center;
+.lessonplan-left{
+  width: 350px;
+  margin-right: 10px;
+}
+
+.lessonplan-left img{
+  width: 350px;
+}
+
+.lessonplan-right{
+  width: 600px;
+  display: inline;
+  width: 50%;
+}
+
+.lessonplan-right h2{
+color: #646464;
+font-size: 30px;
+font-weight: 700;
+}
+
+.lessonplan-right a{
+  border-bottom: 1px solid green;
+  color: #ADADAD;
+}
+
+.lessonplan-right p{
+  color: #646464;
+}
+
+.lessonplan-bottom{
+display: block;
+}
+
+.lessonplan-bottom img{
+  display: inline;
+}
+
+.lessonplan-bottom p{
+  display: inline;
+  color: #ADADAD;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .aside2{
@@ -88,7 +149,6 @@ html{
 
 
 .main2{
-  background: blue;
   width: 800px;
 }
 
@@ -1012,7 +1072,7 @@ header nav{
 }
 
 .profile-picture{
-  margin: 1% 3% 3% 2%;
+  margin: 1% 2% 2% 2%;
   padding: 0 0 0 65px;
   float:left;
 }
