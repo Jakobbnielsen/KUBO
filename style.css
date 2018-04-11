@@ -1064,25 +1064,27 @@ header nav{
 .infobox{
   background-color: #969696;
   border-radius: 4px;
-  height: 96px
+  height: 96px;
+  padding-left: 10px;
 }
 
 #votebutton11{
   background-repeat: no-repeat;
-  padding: 0 0 0 0;
-  margin: -55px 15px 0 250px;
-  width: 26px;
-  height: 15px;
+  padding: 10px 10px 10px 7px;
+  margin: -60px 5px 0 200px;
+  width: 50px;
+  height: 25px;
   background-image: url("media/votewhite.png");
 }
 
 #votebutton11 p{
   padding-top: 16px;
-  font-size: 14px;
+  font-size: 19px;
   color: #fff;
 }
 
 .votenumber-white{
+  font-size: 18px;
   width: 100%;
   box-shadow: none;
   margin: 4px 0 0 -18px;
