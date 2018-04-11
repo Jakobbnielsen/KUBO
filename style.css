@@ -344,7 +344,7 @@ input{
 }
 
 h2{
-  color: #f1f1f2;
+  color: #216393;
   font-size: 48px;
 }
 
@@ -662,10 +662,15 @@ h1{
 }
 
 #trending{
+  color: #ffffff;
   height: 700px;
   float:left;
   width: 100%;
   background: #044C7F;
+}
+
+#trending h2{
+  color: #ffffff;
 }
 
 .active{
