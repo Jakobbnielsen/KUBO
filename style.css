@@ -1103,7 +1103,39 @@ video{
   width: 100%;
 }​
 
+.author-profile{
+  padding-right: 50px;
+}
 
+
+.profile-picture{
+
+}
+
+.name{
+  color: black;
+  font-size: 20px;
+}
+
+.author-info{
+  color: #646464;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.author-stats{
+  color: #00A19B;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline;
+}
+
+.author-stats1{
+  color: #005DA5;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline;
+}
 
 /* FORUMS STYLE */
 
