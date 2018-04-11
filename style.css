@@ -20,22 +20,64 @@
   width: 15%;
   min-width: 160px;
   margin-right: 10px;
-  background-color: blue;
 }
 
 .lessonplan-main{
-  background-color: blue;
+  background-color: #FFF;
+  border-radius: 4px;
   width: 85%;
 }
 
 .lessonplan{
+  float: left;
   width: 100%;
   margin: 10px 0;
-  background: green;
+  border-bottom: 1px solid #DDDDDD;
 }
 
+.lessonplan-left{
+  float: left;
+  height: 100%;
+  width: 30%;
+}
 
+.lessonplan-left img{
+  float: left;
+  width: 40%;
+  min-width: 250px;
+}
 
+.lessonplan-right{
+  display: inline;
+  width: 50%;
+}
+
+.lessonplan-right h2{
+color: #646464;
+font-size: 30px;
+font-weight: 500;
+}
+
+.lessonplan-right a{
+  border-bottom: 1px solid green;
+  color: #ADADAD;
+}
+
+.lessonplan-right p{
+  color: #646464;
+}
+
+.lessonplan-bottom{
+display: block;
+}
+
+.lessonplan-bottom img{
+  display: inline;
+}
+
+.lessonplan-bottom p{
+  display: inline;
+}
 
 #lessonplancontainer{
   display: flex;
@@ -85,7 +127,6 @@
 
 
 .main2{
-  background: blue;
   width: 800px;
 }
 
