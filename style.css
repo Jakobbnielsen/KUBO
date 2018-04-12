@@ -4,8 +4,46 @@
   font-family: 'Lato', Verdana;
 }
 
+.respond-vote{
+  display: inline;
+  float: right;
+  width: 76px;
+  margin-top: -60px;
+  min-width: 76px;
+}
+
+.send-comment button{
+  padding: 15px 35px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #00A19B , #00C9C2);
+  font-size: 15px;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s linear;
+}
+
+.send-comment button:hover{
+  background: linear-gradient(to right, #00A19B , #00C9C2);
+}
+
+.comment-vote{
+  display: inline;
+  float: right;
+  width: 76px;
+  margin-top: -100px;
+  min-width: 76px;
+}
+
+.comment-vote img{
+  display: inline;
+  float: left;
+}
+
 .main-comment{
   background-color: #FFF;
+  padding-bottom: 20px;
 }
 
 .comment-title{
@@ -29,7 +67,7 @@
   padding: 30px 0;
 }
 
-.send-comment button{
+.send-comment a{
   background: linear-gradient(to right, #00A19B , #00C9C2);
   height: 50px;
   color: white;
@@ -54,6 +92,7 @@
   display: inline;
   padding: 10px 50px 0 0;
   float: left;
+  width: 150px;
 }
 
 .respond-content{
@@ -173,6 +212,10 @@ text-align: center;
   background-color: #F1F1F2;
   color: #646464;
   line-height: 22px;
+}
+
+.threadcontent p{
+  width: 85%;
 }
 
 .add-button{
