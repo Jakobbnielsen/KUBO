@@ -22,7 +22,7 @@
   display: inline;
   float: right;
   width: 76px;
-  margin-top: -10px;
+  margin-top: -14px;
   min-width: 76px;
 }
 
@@ -153,6 +153,7 @@
   background: #DDDDDD;
   color: #646464;
   float: left;
+  width: 89%;
   display: block;
   margin-left: 10%;
   margin-right: 10px;
