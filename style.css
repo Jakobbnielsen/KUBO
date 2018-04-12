@@ -4,6 +4,14 @@
   font-family: 'Lato', Verdana;
 }
 
+#lessonvotebutton12{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
 .respond-vote{
   display: inline;
   float: right;
@@ -277,7 +285,7 @@ html{
   margin-right: 10px;
 }
 
-.lessonplan-main{
+.lessonplan-focus{
   background-color: #FFF;
   border-radius: 4px;
 }
@@ -1363,6 +1371,14 @@ header nav{
   padding: 20px;
 }
 
+article{
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .main h2{
   float: left;
   color: #646464;
@@ -1476,4 +1492,74 @@ video{
   width: 100%;
 }​
 
-/*  Comment section */
+#lessonvotebutton13{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton3{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton4{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton5{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton6{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton7{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton8{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton9{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton10{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
