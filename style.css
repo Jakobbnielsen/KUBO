@@ -4,6 +4,52 @@
   font-family: 'Lato', Verdana;
 }
 
+.main-comment{
+  background-color: #FFF;
+}
+
+.comment-title{
+  background-color: #00A19B;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.comment-content{
+  padding: 0 20px;
+}
+
+.comment-title h3{
+  padding: 10px;
+}
+
+.send-comment{
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.send-comment button{
+  background: linear-gradient(to right, #00A19B , #00C9C2);
+  height: 50px;
+  color: white;
+}
+
+.comment-text{
+  color: #646464;
+  border: 0px;
+  background: #F1F1F2;
+  margin: 10px auto 0 auto;
+  display: block;
+  width: 98%;
+  height: 150px;
+  border-radius: 4px;
+  line-height: 1.4em;
+  padding: 10px 10px;
+  font-size: 14px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
 .respond-name{
   display: inline;
   padding: 10px 50px 0 0;
@@ -43,52 +89,6 @@
   background-color: #FFF;
   margin-bottom: 20px;
 }​
-
-.comment-text{
-  color: #646464;
-  border: 0px;
-  background: #F1F1F2;
-  margin: 10px auto 0 auto;
-  display: block;
-  width: 98%;
-  height: 150px;
-  border-radius: 4px;
-  line-height: 1.4em;
-  padding: 10px 10px;
-  font-size: 14px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
-}
-
-.send-comment{
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px 0;
-}
-
-.send-comment button{
-  background: linear-gradient(to right, #00A19B , #00C9C2);
-  height: 50px;
-  color: white;
-}
-
-.comment-title{
-  background-color: #00A19B;
-  color: #FFF;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.comment-content{
-  padding: 0 20px;
-}
-
-.comment-title h3{
-  padding: 10px;
-}
-
-.main-comment{
-  background-color: #FFF;
-}
 
 .comment-top button{
 margin: auto;
