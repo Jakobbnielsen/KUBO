@@ -4,6 +4,37 @@
   font-family: 'Lato', Verdana;
 }
 
+.create-lesson-section{
+  margin-bottom: 40px;
+}
+
+.lesson-text{
+  color: #646464;
+  border: 0px;
+  background: #F1F1F2;
+  margin: 0 auto;
+  display: block;
+  width: 98%;
+  height: 150px;
+  border-radius: 4px;
+  line-height: 1.4em;
+  padding: 10px;
+  font-size: 14px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+textarea{
+  resize: none;
+}
+
+#lessonvotebutton12{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
 .create-lesson{
   width: 80%;
   margin: 0 10%;
@@ -16,7 +47,6 @@
   background: #00A19B;
   padding: 6px 0 6px 12px;
 }
-
 
 .respond-vote{
   display: inline;
@@ -314,7 +344,7 @@ html{
   margin-right: 10px;
 }
 
-.lessonplan-main{
+.lessonplan-focus{
   background-color: #FFF;
   border-radius: 4px;
 }
@@ -522,7 +552,6 @@ display: block;
   background: #FFF;
   border-radius: 4px;
 }​
-
 
 @font-face {
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
@@ -1400,6 +1429,14 @@ header nav{
   padding: 20px;
 }
 
+article{
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .main h2{
   float: left;
   color: #646464;
@@ -1513,4 +1550,74 @@ video{
   width: 100%;
 }​
 
-/*  Comment section */
+#lessonvotebutton13{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton3{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton4{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton5{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton6{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton7{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton8{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton9{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton10{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
