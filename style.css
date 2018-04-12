@@ -4,6 +4,10 @@
   font-family: 'Lato', Verdana;
 }
 
+textarea{
+  resize: none;
+}
+
 #lessonvotebutton12{
   float: left;
   margin: 70px 0 0 20px;
@@ -530,7 +534,6 @@ display: block;
   background: #FFF;
   border-radius: 4px;
 }​
-
 
 @font-face {
   font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
