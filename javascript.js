@@ -1,11 +1,19 @@
 //* DASHBOAR.HTML SCRIPT START
 
-function changeCategory(){
+function changeUser(){
     forumfrontcontainer.style.display = "none";
 }
 
-function changeCategory2(){
+function changeUser2(){
     forumfrontcontainer.style.display = "block";
+}
+
+function changeUser(){
+    userfrontcontainer.style.display = "none";
+}
+
+function changeUser2(){
+    userfrontcontainer.style.display = "block";
 }
 
 function vote()
