@@ -10,6 +10,8 @@ function createLesson(){
   localStorage.setItem('lessonplancontent',lessonplancontent);
   localStorage.setItem('lessonplandescription',lessonplandescription);
   window.location.href = 'lessonplans.html';
+  var stylechange = document.getElementById("lessonplanone").style.display = "block";
+  localStorage.setItem('lessonplantitle',lessonplantitle);
 }
 
 function changeCategory(){

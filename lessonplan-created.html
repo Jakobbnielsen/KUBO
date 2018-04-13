@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="KEDU educators platfrom for teachers - KUBO. Kedu is an online platform for teachers all around the world, find lessonplans and forum debate about the KUBO robot and teaching in general">
+    <title>KEDU - Lessonplan</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="media/kedu-logo.png" alt="Picture of the KEDU logo">
+        </div>
+      <div class="headerstyle">
+      <nav>
+        <ul>
+          <li><a href="userpage.html">PROFILE</a></li>
+          <li><a href="forums.html">FORUMS</a></li>
+          <li><a href="lessonplans.html"><span class="current">LESSON PLANS</a></li>
+          <li><a href="dashboard.html">DASHBOARD</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <main>
+      <section id="top">
+        <div class="topdiv">
+          <h1 id="lessonplantitlez">A guide on how to use functions with KUBO</h1>
+        </div>
+      </section>
+      <section id="lessonplancontainer">
+        <div class="about">
+          <h3>ABOUT THIS LESSON PLAN</h3>
+          <p id="lessonplandescription">KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
+        </div>
+        <div class="info">
+          <h3>INFO</h3>
+          <div class="infobox">
+            <a href="" id="authorname" class="author"></a>
+            <div class="infolevel">
+            <img src="media/advanced.png" alt="Icon that represents the difficulty of the lesson">
+            <p>ADVANCED</p>
+          </div>
+            <div class="infoclock">
+              <img src="media/clock.png" alt="Icon that represents the estimated time of the lesson">
+              <p>1H 30M</p>
+            </div>
+          <div class="infovote">
+            <div class="votelesson">
+              <div id="votebutton11" onclick="vote11(); this.onclick=null;">
+                <input class="votenumber-white" type="text" id="number11" value="1" disabled>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="aside">
+          <img src="media/asidebar.png" alt="Prototype image of the aside menu bar">
+        </div>
+        <div class="main">
+          <p class="chapter">CHAPTER 4:</p>
+          <h2>Remember to make it fun</h2>
+          <video class="lessonvideo" poster="media/thumbnail.png" controls>
+              <source src="media/video.mp4" type="video/mp4" alt="Placeholder video of the lesson">
+          </video>
+          <div class="maintext">
+            <p id="lessonplancontent">
+            </p>
+
+          </div>
+          <div class="author">
+            <div class="forumleft">
+              <div class="profileimage">
+                <img src="media/fernando.png" alt="User profile picture of a generated personality Fernando Renchez">
+              </div>
+              <div class="profiletext">
+                <h4 id="authorname">You</h4>
+                <p>ZARAGOZA SCHOOL</p>
+                <p>SPAIN</p>
+                <p class="green">3 LESSON PLANS</p><p class="blue">6 FORUM POSTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="comment-section">
+        <div class="main-comment">
+            <h3 class="comment-title">COMMENTS (0)</h3>
+                    <div class="comment-content">
+            <textarea class="comment-text" placeholder="Write comment.." value="text"></textarea>
+            <div class="send-comment">
+              <button type="button">SEND COMMENT</button>
+            </div>
+          </div>
+
+          </div>
+          <div class="report-lessonplan">
+            <button type="button">REPORT THIS LESSON</button>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <script>
+    function vote11()
+    {
+    var value = parseInt(document.getElementById('number11').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number11').value = value;
+    document.getElementById('votebutton11').style.backgroundImage = 'url(media/upvotewhite.png)';
+
+    }
+      var lessonplantitle = localStorage.getItem('lessonplantitle');
+      var authorname = localStorage.getItem('authorname');
+      var lessonplandescription = localStorage.getItem('lessonplandescription');
+      var lessonplancontent = localStorage.getItem('lessonplancontent');
+      document.getElementById("lessonplantitlez").innerHTML = lessonplantitle;
+      document.getElementById("authorname").innerHTML = "By " + authorname;
+      document.getElementById("lessonplandescription").innerHTML = lessonplandescription;
+      document.getElementById("lessonplancontent").innerHTML = lessonplancontent;
+    </script>
+  </body>
+</html>

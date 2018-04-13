@@ -4,12 +4,8 @@
   font-family: 'Lato', Verdana;
 }
 
-.hidden{
-<<<<<<< HEAD
-  /* display: none !important; */
-=======
-
->>>>>>> 4eb413d116ffe924dc1ed838091ea22413e9f4a3
+#lessonplanone{
+  /* display: none; */
 }
 
 .create-lesson .send-comment{
