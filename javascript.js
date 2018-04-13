@@ -1,5 +1,15 @@
 //* DASHBOAR.HTML SCRIPT START
 
+function createLesson(){
+  var lessonplantitle = document.getElementById("lessonplantitle").value;
+  var authorname = document.getElementById("authorname").value;
+  var lessonplancontent = document.getElementById("lessonplancontent").value;
+  localStorage.setItem('lessonplantitle',lessonplantitle);
+  localStorage.setItem('authorname',authorname);
+  localStorage.setItem('lessonplancontent',lessonplancontent);
+}
+
+
 function changeCategory(){
     forumfrontcontainer.style.display = "none";
 }

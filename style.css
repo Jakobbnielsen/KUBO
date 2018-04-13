@@ -4,6 +4,10 @@
   font-family: 'Lato', Verdana;
 }
 
+.hidden{
+  display: none !important;
+}
+
 .create-lesson .send-comment{
   padding-top: 0;
 }
