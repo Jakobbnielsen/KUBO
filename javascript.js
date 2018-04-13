@@ -1,10 +1,10 @@
 //* DASHBOAR.HTML SCRIPT START
 
-function changeUser(){
+function changeCategory(){
     forumfrontcontainer.style.display = "none";
 }
 
-function changeUser2(){
+function changeCategory2(){
     forumfrontcontainer.style.display = "block";
 }
 
@@ -124,10 +124,10 @@ document.getElementById('lessonvotebutton1').style.backgroundImage = 'url(media/
 
 function lessonvotebutton12()
 {
-var value = parseInt(document.getElementById('lessonplannumber10').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber1').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber10').value = value;
+document.getElementById('lessonplannumber1').value = value;
 document.getElementById('lessonvotebutton12').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
