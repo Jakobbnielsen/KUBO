@@ -11,6 +11,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   </head>
   <body>
+    <script>
+      function createLesson(){
+        var lessonplantitle = document.getElementById("lessonplantitle").value;
+        var authorname = document.getElementById("authorname").value;
+        var lessonplancontent = document.getElementById("lessonplancontent").value;
+        localStorage.setItem('lessonplantitle',lessonplantitle);
+        localStorage.setItem('authorname',authorname);
+        localStorage.setItem('lessonplancontent',lessonplancontent);
+      }
+    </script>
     <header>
       <div class="logo">
         <img src="media/kedu-logo.png" alt="Picture of the KEDU logo">
@@ -39,17 +49,13 @@
         <div class="create-lesson-title">
           <h3>LESSON PLAN TITLE</h3>
         </div>
-        <textarea class="lesson-text small-height" placeholder="Add lesson plan title..." value="text"></textarea>
+        <input class="lesson-text small-height" type="text" id="lessonplantitle" placeholder="Lesson plan title...">
       </div>
-      <div class="create-lessonplan-chapters">
-  <div>Chapter 1</div>
-  <div class="add-chapter">ADD CHAPTER</div>
-</div>
       <div class="create-lesson-section">
         <div class="create-lesson-title">
-          <h3>CHAPTER TITLE</h3>
+          <h3>NAME</h3>
         </div>
-        <textarea class="lesson-text small-height" placeholder="Lesson plan chapter title..." value="text"></textarea>
+        <input class="lesson-text small-height" type="text" id="authorname" placeholder="What is your name">
       </div>
       <div class="create-lesson-section">
         <div class="create-lesson-title">
@@ -61,10 +67,10 @@
         <div class="create-lesson-title">
           <h3>CONTENT</h3>
         </div>
-        <textarea class="lesson-text" placeholder="Write the content for this chapter..." value="text"></textarea>
+        <input class="lesson-text" type="text" id="lessonplancontent" placeholder="Content of the lessonplan...">
       </div>
       <div class="send-comment">
-        <button type="button">SUBMIT LESSON PLAN</button>
+        <button type="button" onclick="createLesson()">SUBMIT LESSON PLAN</button>
       </div>
   </main>
 </div>
