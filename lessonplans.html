@@ -93,7 +93,7 @@
         </p>
         <div class="lessonplan-bottom">
         <img src="media/lessonplan-advanced.png" alt="Icon that represents the difficulty of the lesson">
-        <p>ADVANCED</p>
+        <p id="difficulty"></p>
         <img src="media/lessonplan-clock.png" alt="Icon that represents the estimated time for the lesson">
         <p>2H 15M</p>
         <img src="media/eye.png" alt="Icon that show how many views a object has got">
@@ -389,9 +389,12 @@
       var lessonplantitle = localStorage.getItem('lessonplantitle');
       var authorname = localStorage.getItem('authorname');
       var lessonplandescription = localStorage.getItem('lessonplandescription');
+      var chaptertitle = localStorage.getItem('chaptertitle');
+      var difficulty = localStorage.getItem('difficulty');
       document.getElementById("lessonplantitlez").innerHTML = lessonplantitle;
       document.getElementById("authorname").innerHTML = "By " + authorname;
       document.getElementById("lessonplandescription").innerHTML = lessonplandescription;
+      document.getElementById("difficulty").innerHTML = difficulty;
     </script>
   </body>
 </html>

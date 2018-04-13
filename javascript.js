@@ -5,10 +5,12 @@ function createLesson(){
   var authorname = document.getElementById("authorname").value;
   var lessonplancontent = document.getElementById("lessonplancontent").value;
   var lessonplandescription = document.getElementById("lessonplandescription").value;
+  var chaptertitle = document.getElementById("chaptertitle").value;
   localStorage.setItem('lessonplantitle',lessonplantitle);
   localStorage.setItem('authorname',authorname);
   localStorage.setItem('lessonplancontent',lessonplancontent);
   localStorage.setItem('lessonplandescription',lessonplandescription);
+  localStorage.setItem('chaptertitle',chaptertitle);
   window.location.href = 'lessonplans.html';
   var stylechange = document.getElementById("lessonplanone").style.display = "block";
   localStorage.setItem('lessonplantitle',lessonplantitle);
