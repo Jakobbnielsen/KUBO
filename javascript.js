@@ -6,11 +6,13 @@ function createLesson(){
   var lessonplancontent = document.getElementById("lessonplancontent").value;
   var lessonplandescription = document.getElementById("lessonplandescription").value;
   var chaptertitle = document.getElementById("chaptertitle").value;
+  var difficulty = document.getElementById("difficulty").value;
   localStorage.setItem('lessonplantitle',lessonplantitle);
   localStorage.setItem('authorname',authorname);
   localStorage.setItem('lessonplancontent',lessonplancontent);
   localStorage.setItem('lessonplandescription',lessonplandescription);
   localStorage.setItem('chaptertitle',chaptertitle);
+  localStorage.setItem('difficulty',difficulty);
   window.location.href = 'lessonplans.html';
   var stylechange = document.getElementById("lessonplanone").style.display = "block";
   localStorage.setItem('lessonplantitle',lessonplantitle);
