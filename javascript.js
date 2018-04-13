@@ -1,12 +1,15 @@
-//* DASHBOAR.HTML SCRIPT START
+//* DASHBOARD.HTML SCRIPT START
 
 function createLesson(){
   var lessonplantitle = document.getElementById("lessonplantitle").value;
   var authorname = document.getElementById("authorname").value;
   var lessonplancontent = document.getElementById("lessonplancontent").value;
+  var lessonplandescription = document.getElementById("lessonplandescription").value;
   localStorage.setItem('lessonplantitle',lessonplantitle);
   localStorage.setItem('authorname',authorname);
   localStorage.setItem('lessonplancontent',lessonplancontent);
+  localStorage.setItem('lessonplandescription',lessonplandescription);
+  window.location.href = 'lessonplans.html';
 }
 
 

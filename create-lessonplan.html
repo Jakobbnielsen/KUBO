@@ -11,16 +11,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   </head>
   <body>
-    <script>
-      function createLesson(){
-        var lessonplantitle = document.getElementById("lessonplantitle").value;
-        var authorname = document.getElementById("authorname").value;
-        var lessonplancontent = document.getElementById("lessonplancontent").value;
-        localStorage.setItem('lessonplantitle',lessonplantitle);
-        localStorage.setItem('authorname',authorname);
-        localStorage.setItem('lessonplancontent',lessonplancontent);
-      }
-    </script>
     <header>
       <div class="logo">
         <img src="media/kedu-logo.png" alt="Picture of the KEDU logo">
@@ -59,9 +49,9 @@
       </div>
       <div class="create-lesson-section">
         <div class="create-lesson-title">
-          <h3>VIDEO</h3>
+          <h3>DESCRIPTION</h3>
         </div>
-        <textarea class="lesson-text small-height" placeholder="Upload lesson plan video..." value="text"></textarea>
+        <input class="lesson-text small-height" type="text" id="lessonplandescription" placeholder="Lesson plan description...">
       </div>
       <div class="create-lesson-section">
         <div class="create-lesson-title">

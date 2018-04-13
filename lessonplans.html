@@ -87,9 +87,9 @@
       </a>
       </div>
       <div class="lessonplan-right">
-        <h2 class="lessonplantitlez"></h2>
-        <a href="#" class="writer">By Boris Jurichov</a>
-        <p>KUBO’s strength is that it lets students learn through play. It’s a great coding tool to use in the classroom because it’s very intuitive.
+        <h2 id="lessonplantitlez"></h2>
+        <a href="#" id="author" class="writer"></a>
+        <p id="lessonplandescription">
         </p>
         <div class="lessonplan-bottom">
         <img src="media/lessonplan-advanced.png" alt="Icon that represents the difficulty of the lesson">
@@ -385,5 +385,13 @@
 </div>
 </div>
     </main>
+    <script>
+      var lessonplantitle = localStorage.getItem('lessonplantitle');
+      var authorname = localStorage.getItem('authorname');
+      var lessonplandescription = localStorage.getItem('lessonplandescription');
+      document.getElementById("lessonplantitlez").innerHTML = lessonplantitle;
+      document.getElementById("author").innerHTML = "By " + authorname;
+      document.getElementById("lessonplandescription").innerHTML = lessonplandescription;
+    </script>
   </body>
 </html>
