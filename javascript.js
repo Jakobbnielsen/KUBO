@@ -4,11 +4,13 @@ function createLesson(){
   var lessonplantitle = document.getElementById("lessonplantitle").value;
   var authorname = document.getElementById("authorname").value;
   var lessonplancontent = document.getElementById("lessonplancontent").value;
+  var lessonplaned = document.getElementById("described").value;
   localStorage.setItem('lessonplantitle',lessonplantitle);
   localStorage.setItem('authorname',authorname);
   localStorage.setItem('lessonplancontent',lessonplancontent);
+  localStorage.setItem('lessonplaned',lessonplaned);
+  window.location.href = "lessonplans.html";
 }
-
 
 function changeCategory(){
     forumfrontcontainer.style.display = "none";

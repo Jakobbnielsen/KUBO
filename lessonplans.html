@@ -78,7 +78,7 @@
     <div class="lessonplan hidden">
       <div class="lessonplan-vote">
         <div id="lessonvotebutton12" onclick="lessonvotebutton12(); this.onclick=null;">
-          <input class="votenumber121" type="text" id="lessonplannumber1" value="6385" disabled>
+          <input class="votenumber121" type="text" id="lessonplannumber1" value="1" disabled>
         </div>
       </div>
       <div class="lessonplan-left">
@@ -87,19 +87,18 @@
       </a>
       </div>
       <div class="lessonplan-right">
-        <h2 class="lessonplantitlez"></h2>
-        <a href="#" class="writer">By Boris Jurichov</a>
-        <p>KUBO’s strength is that it lets students learn through play. It’s a great coding tool to use in the classroom because it’s very intuitive.
-        </p>
+        <h2 id="lessonplantitlez"></h2>
+        <a href="#" id="writer"></a>
+        <p id="lessond"></p>
         <div class="lessonplan-bottom">
         <img src="media/lessonplan-advanced.png" alt="Icon that represents the difficulty of the lesson">
         <p>ADVANCED</p>
         <img src="media/lessonplan-clock.png" alt="Icon that represents the estimated time for the lesson">
         <p>2H 15M</p>
         <img src="media/eye.png" alt="Icon that show how many views a object has got">
-        <p>35920</p>
+        <p>0</p>
         <img src="media/speechbubble.png" alt="Icon that shows how many comments a object has got">
-        <p>372</p>
+        <p>0</p>
       </div>
       </div>
     </div>
@@ -385,5 +384,13 @@
 </div>
 </div>
     </main>
+    <script>
+      var lessonplantitle = localStorage.getItem("lessonplantitle");
+      var authorname = localStorage.getItem("authorname");
+      var description = localStorage.getItem("lessonplaned");
+      document.getElementById("lessonplantitlez").innerHTML = lessonplantitle;
+      document.getElementById("writer").innerHTML = "By " + authorname;
+      document.getElementById("lessond").innerHTML = description;
+    </script>
   </body>
 </html>
