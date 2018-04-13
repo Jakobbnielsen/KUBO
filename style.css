@@ -1112,7 +1112,7 @@ button.newsbutton:hover{
   transition: max-height 0.2s ease-in-out;
 }
 
-/*
+
 footer{
   position: absolute;
   height: 200px;
@@ -1121,7 +1121,7 @@ footer{
   left: 0;
   bottom: 0;
 }
-*/
+
 
 .footer-container{
 padding-top: 50px;
