@@ -12,7 +12,6 @@ function createLesson(){
   window.location.href = 'lessonplans.html';
 }
 
-
 function changeCategory(){
     forumfrontcontainer.style.display = "none";
 }

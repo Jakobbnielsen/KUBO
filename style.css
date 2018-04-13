@@ -5,7 +5,11 @@
 }
 
 .hidden{
+<<<<<<< HEAD
   /* display: none !important; */
+=======
+
+>>>>>>> 4eb413d116ffe924dc1ed838091ea22413e9f4a3
 }
 
 .create-lesson .send-comment{
@@ -341,10 +345,11 @@ text-align: center;
 .votenumber121{
   width: 100%;
   box-shadow: none;
-  margin: 12px 0 0 -16px;
+  margin: 12px 0 0 -21px;
   background: none;
   font-size: 14px;
   -webkit-touch-callout: none;
+  text-align: center;
 }
 
 .testcontainer {
