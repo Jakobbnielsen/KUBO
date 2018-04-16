@@ -6,7 +6,6 @@
     <title>KEDU - Profile</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
-    <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   </head>
@@ -41,139 +40,105 @@
             <p class="green">26 LESSON PLANS</p><p class="blue"> 157 FORUM POSTS</p>
           </div>
         </div>
+        <section id="usercontent">
 
-
-      <div id="lessonplanfrontcontainer">
-        <div class="category active">
-          <p onclick="changeCategory()">LESSON PLANS</p>
-        </div>
-        <div class="category">
-          <p onclick="changeCategory2()">FORUMS</p>
-        </div>
-        <div class="lessonplan">
-          <div class="lessonplan-vote">
-            <div id="lessonvotebutton1" onclick="lessonvotebutton1(); this.onclick=null;">
-              <input class="lessonplan-votenumber" type="text" id="lessonplannumber1" value="7268" disabled>
+          <div id="lessonplanfrontcontainer-user">
+            <div class="profile-category profile-active">
+              <p onclick="changeCategory()">LESSON PLANS</p>
             </div>
-          </div>
-          <a href="lessonplan1.html" class="lessonplan-left">
-            <img src="media/lessonplanimage1.png" alt="Kids playing with the KUBO robot">
-          </a>
-          <div class="lessonplan-right">
-            <h2>A guide on how to use functions with KUBO</h2>
-            <a href="#" class="writer">By Fernando Renchez</a>
-            <p>KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding.
-            </p>
-            <div class="lessonplan-bottom">
-            <img src="media/lessonplan-intermediate.png" alt="Icon that represents the difficulty of the lesson">
-            <p>INTERMEDIATE</p>
-            <img src="media/lessonplan-clock.png" alt="Icon that represents the estimated time for the lesson">
-            <p>1H 30M</p>
-            <img src="media/eye.png" alt="Icon that show how many views a object has got">
-            <p>37285</p>
-            <img src="media/speechbubble.png" alt="Icon that shows how many comments a object has got">
-            <p>583</p>
-          </div>
-          </div>
-        </div>
-        <div class="lessonplan">
-          <div class="lessonplan-vote">
-            <div id="lessonvotebutton2" onclick="lessonvotebutton2(); this.onclick=null;">
-              <input class="lessonplan-votenumber" type="text" id="lessonplannumber2" value="6385" disabled>
+            <div class="profile-category">
+              <p onclick="changeCategory2()">FORUMS</p>
             </div>
-          </div>
-          <div class="lessonplan-left">
-            <a href="lessonplan1.html" class="lessonplan-left">
-            <img src="media/lessonplanimage2.png" alt="Stock photo, of a teacher and a kid, using the KUBO robot together">
-          </a>
-          </div>
-          <div class="lessonplan-right">
-            <h2>Learn to make functions fun</h2>
-            <a href="#" class="writer">By Boris Jurichov</a>
-            <p>KUBO’s strength is that it lets students learn through play. It’s a great coding tool to use in the classroom because it’s very intuitive.
-            </p>
-            <div class="lessonplan-bottom">
-            <img src="media/lessonplan-advanced.png" alt="Icon that represents the difficulty of the lesson">
-            <p>ADVANCED</p>
-            <img src="media/lessonplan-clock.png" alt="Icon that represents the estimated time for the lesson">
-            <p>2H 15M</p>
-            <img src="media/eye.png" alt="Icon that show how many views a object has got">
-            <p>35920</p>
-            <img src="media/speechbubble.png" alt="Icon that shows how many comments a object has got">
-            <p>372</p>
-          </div>
-          </div>
-        </div>
-        <div class="lessonplan">
-          <div class="lessonplan-vote">
-            <div id="lessonvotebutton3" onclick="lessonvotebutton3(); this.onclick=null;">
-              <input class="lessonplan-votenumber" type="text" id="lessonplannumber3" value="5638" disabled>
+            <div class="vote">
+              <div id="votebutton" onclick="vote(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number" value="458" disabled>
+              </div>
+              <p class="posttext">Use KUBO in this creative way to make your students like Einstein</p>
             </div>
+          <div class="vote white">
+            <div id="votebutton2" onclick="vote2(); this.onclick=null;">
+              <input class="votenumber" type="text" id="number2" value="421" disabled>
+            </div>
+            <p class="posttext">A guide on how to use functions with KUBO</p>
           </div>
-          <div class="lessonplan-left">
-            <a href="lessonplan1.html" class="lessonplan-left">
-            <img src="media/lessonplanimage3.png" alt="Photo of a kid learning and playing alone, with the KUBO robot">
-          </a>
+          <div class="vote">
+            <div id="votebutton3" onclick="vote3(); this.onclick=null;">
+              <input class="votenumber" type="text" id="number3" value="409" disabled>
+            </div>
+            <p class="posttext">Learn to make functions fun</p>
           </div>
-          <div class="lessonplan-right">
-            <h2>Make functions into a competition</h2>
-            <a href="#" class="writer">By Daniel Chagubanovski</a>
-            <p>Students can just get started and it’s easy to transfer the basics they learn to more formal coding languages later.
-            </p>
-            <div class="lessonplan-bottom">
-            <img src="media/lessonplan-beginner.png" alt="Icon that represents the difficulty of the lesson">
-            <p>BEGINNER</p>
-            <img src="media/lessonplan-clock.png" alt="Icon that represents the estimated time for the lesson">
-            <p>2H 00M</p>
-            <img src="media/eye.png" alt="Icon that show how many views a object has got">
-            <p>28364</p>
-            <img src="media/speechbubble.png" alt="Icon that shows how many comments a object has got">
-            <p>208</p>
+          <div class="vote white">
+            <div id="votebutton4" onclick="vote4(); this.onclick=null;">
+              <input class="votenumber" type="text" id="number4" value="389" disabled>
+            </div>
+            <p class="posttext">Make functions into a competition</p>
           </div>
+          <div class="vote">
+            <div id="votebutton5" onclick="vote5(); this.onclick=null;">
+              <input class="votenumber" type="text" id="number5" value="289" disabled>
+            </div>
+            <p class="posttext">Getting advanced with functions</p>
           </div>
         </div>
 
 
-    <div id="forumfrontcontainer">
-      <div class="category">
-        <p onclick="changeCategory()">LESSON PLANS</p>
-      </div>
-      <div class="category active">
-        <p onclick="changeCategory2()">FORUMS</p>
-      </div>
-      <div class="vote">
-        <div id="votebutton6" onclick="vote6(); this.onclick=null;">
-          <input class="votenumber" type="text" id="number6" value="257" disabled>
+        <div id="forumfrontcontainer">
+          <div class="profile-category">
+            <p onclick="changeCategory()">LESSON PLANS</p>
+          </div>
+          <div class="profile-category profile-active">
+            <p onclick="changeCategory2()">FORUMS</p>
+          </div>
+          <div class="vote">
+            <div id="votebutton6" onclick="vote6(); this.onclick=null;">
+              <input class="votenumber" type="text" id="number6" value="823" disabled>
+            </div>
+            <p class="posttext">Download the new KEDU app, and participate in the competition</p>
+          </div>
+          <div class="vote white">
+            <div id="votebutton7" onclick="vote7(); this.onclick=null;">
+              <input class="votenumber" type="text" id="number7" value="465" disabled>
+            </div>
+            <p class="posttext">KUBO release the KUBO classroom-set!</p>
+          </div>
+        <div class="vote">
+          <div id="votebutton8" onclick="vote8(); this.onclick=null;">
+            <input class="votenumber" type="text" id="number8" value="423" disabled>
+          </div>
+          <p class="posttext">New popular way to use the KUBO robot</p>
         </div>
-        <p class="posttext">This is a forum post</p>
-      </div>
-      <div class="vote white">
-        <div id="votebutton7" onclick="vote7(); this.onclick=null;">
-          <input class="votenumber" type="text" id="number7" value="257" disabled>
+        <div class="vote white">
+          <div id="votebutton9" onclick="vote9(); this.onclick=null;">
+            <input class="votenumber" type="text" id="number9" value="278" disabled>
+          </div>
+          <p class="posttext">Discussion: How do other teacher use KUBO in class.</p>
         </div>
-        <p class="posttext">This is a forum post</p>
+        <div class="vote">
+          <div id="votebutton10" onclick="vote10(); this.onclick=null;">
+            <input class="votenumber" type="text" id="number10" value="129" disabled>
+          </div>
+          <p class="posttext">How do i convince my school to buy the new classroom-set</p>
+        </div>
       </div>
-    <div class="vote">
-      <div id="votebutton8" onclick="vote8(); this.onclick=null;">
-        <input class="votenumber" type="text" id="number8" value="257" disabled>
+
+        </section>
       </div>
-      <p class="posttext">This is a forum post</p>
-    </div>
-    <div class="vote white">
-      <div id="votebutton9" onclick="vote9(); this.onclick=null;">
-        <input class="votenumber" type="text" id="number9" value="257" disabled>
-      </div>
-      <p class="posttext">This is a forum post</p>
-    </div>
-    <div class="vote">
-      <div id="votebutton10" onclick="vote10(); this.onclick=null;">
-        <input class="votenumber" type="text" id="number10" value="257" disabled>
-      </div>
-      <p class="posttext">This is a forum post</p>
-    </div>
-  </div>
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
+
     <footer>
       <div class="footer-container">
         <div class="footer1">
@@ -198,5 +163,14 @@
         </div>
       </div>
     </footer>
+    <script>
+    function changeCategory(){
+        forumfrontcontainer.style.display = "none";
+    }
+
+    function changeCategory2(){
+        forumfrontcontainer.style.display = "block";
+    }
+    </script>
   </body>
 </html>

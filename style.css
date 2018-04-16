@@ -178,7 +178,7 @@ textarea{
 }
 
 #login #signupbutton{
-  width: 154px;
+  width: 170px;
   cursor: pointer;
 }
 
@@ -587,6 +587,8 @@ display: block;
 #userpage-container{
   border-radius: 4px;
   width: 80%;
+  padding: 26px 16px 0 16px;
+  height: 640px;
   margin: 0 auto;
   background-color: #FFF;
 }
@@ -594,6 +596,13 @@ display: block;
 .userprofile{
   width: 500px;
   margin: 0 auto;
+}
+
+.usercontent{
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+  float: left;
 }
 
 .userpageleft{
@@ -692,7 +701,7 @@ section h2{
 
 #loginbutton{
   color: #FFF;
-  width: 154px;
+  width: 220px;
   margin-right: 10px;
   background: linear-gradient(to right, #00A19B , #00C9C2);
   border: 1px solid #FFF;
@@ -719,9 +728,14 @@ section h2{
   overflow: auto;
 }
 
+.indexcontainer h1{
+  margin-top: 40px;
+  font-weight: 900;
+}
+
 input{
   margin: 20px auto;
-  width: 300px;
+  width: 380px;
   padding: 15px 0 15px 20px;
   background: #FFF;
   color: #6F6F6F;
@@ -760,6 +774,7 @@ h1{
 
 .tagline{
   margin: 0 auto;
+  padding: 20px 0 10px 0;
   width: 400px;
 }
 
@@ -961,6 +976,13 @@ h1{
   text-align: center;
 }
 
+#lessonplanfrontcontainer-user{
+  width: 100%;
+  margin: 40px auto 0 auto;
+  background: #FFF;
+  text-align: center;
+}
+
 #forumfrontcontainer{
   display: none;
   left: 10%;
@@ -1074,6 +1096,11 @@ h1{
   background: #044C7F;
 }
 
+#usercontent{
+  float: left;
+  width: 100%;
+}
+
 #trending h2{
   color: #ffffff;
 }
@@ -1081,6 +1108,11 @@ h1{
 .active{
   background-color: #F1F1F2 !important;
     color: #00A19B !important;
+}
+
+.profile-active{
+  background-color: #00A19B !important;
+    color: #FFF !important;
 }
 
 .category{
@@ -1099,6 +1131,22 @@ h1{
   background-color: #18679F;
 }
 
+.profile-category{
+  width: 50%;
+  text-align: center;
+  height: 40px;
+  cursor: pointer;
+  padding-top: 20px;
+  float: left;
+  background: #FFF;
+  background-color: #DDDDDD;
+  color: #646464;
+  transition: background-color 0.2s linear;
+}
+
+.profile-category:hover{
+  background-color: #7FCECB;
+}
 
 #news {
   height: 800px;
