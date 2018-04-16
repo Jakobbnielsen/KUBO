@@ -1019,7 +1019,7 @@ h1{
   height: 800px;
   float:left;
   width: 100%;
-  background: #DDDDDD;
+  background: #F1F1F2;
 }
 
 #news h2{
@@ -1032,7 +1032,7 @@ color:#ffffff;
 font-size: 20px;
 }
 
-#news p{
+.news-container p{
   color:#646464;
   padding-left: 5%;
   padding-right: 5%;
@@ -1114,9 +1114,9 @@ button.newsbutton:hover{
 
 
 footer{
-  position: absolute;
+  float: left;
   width: 100%;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
   background-color: #044C7F;
   left: 0;
   bottom: 0;

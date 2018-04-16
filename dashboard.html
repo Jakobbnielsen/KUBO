@@ -26,7 +26,7 @@
       </nav>
     </div>
     </header>
-    <main id="mainid">
+    <main>
       <section id="intro">
         <div class="grid-container">
           <div class="item1"><p class="bigimagetext">This is a relevant text for you</p></div>
@@ -145,50 +145,45 @@
                 <p>KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
             </div>
           </div>
+          <footer>
+            <div class="footer-container">
+              <div class="footer1">
+                <h3>NAVIGATION</h3>
+                <a href="dashboard.html">DASHBOARD</a>
+                <a href="lessonplans.html">LESSON PLANS</a>
+                <a href="forums.html">FORUMS</a>
+                <a href="profile.html">PROFILE</a>
+              </div>
+              <div class="footer2">
+                <a href="dashboard.html"> <img src="media/kedu-logo-hvid.png" alt="Picture of the KEDU logo"></a>
+                <p>KUBO Education</p>
+                <p>A community by</p>
+                <p>KUBO Robotics</p>
+              </div>
+              <div class="footer3">
+                <h3>CONTACT US</h3>
+                <p>Niels Bohrs Allé 185, 5220 Odense SØ</p>
+                <a href="http://kubo-robot.com">kubo-robot.com</a>
+                <p>contact@kedu.com</p>
+                <p>SE/CVR-nr.: 37043958</p>
+              </div>
+            </div>
+          </footer>
       </section>
       </main>
-      <footer>
-        <div class="footer-container">
-          <div class="footer1">
-            <h3>NAVIGATION</h3>
-            <a href="dashboard.html">DASHBOARD</a>
-            <a href="lessonplans.html">LESSON PLANS</a>
-            <a href="forums.html">FORUMS</a>
-            <a href="profile.html">PROFILE</a>
-          </div>
-          <div class="footer2">
-            <a href="dashboard.html"> <img src="media/kedu-logo-hvid.png" alt="Picture of the KEDU logo"></a>
-            <p>KUBO Education</p>
-            <p>A community by</p>
-            <p>KUBO Robotics</p>
-          </div>
-          <div class="footer3">
-            <h3>CONTACT US</h3>
-            <p>Niels Bohrs Allé 185, 5220 Odense SØ</p>
-            <a href="http://kubo-robot.com">kubo-robot.com</a>
-            <p>contact@kedu.com</p>
-            <p>SE/CVR-nr.: 37043958</p>
-          </div>
-        </div>
-      </footer>
     <script>
+      var accordions = document.getElementsByClassName("newsbutton");
+      for (var i = 0; i < accordions.length; i++) {
+        accordions[i].onclick = function funct(){
+          var content = this.nextElementSibling;
 
-
-
-    var accordions = document.getElementsByClassName("newsbutton");
-    for (var i = 0; i < accordions.length; i++) {
-      accordions[i].onclick = function funct(){
-        var content = this.nextElementSibling;
-
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
         }
       }
-    }
-
-
     </script>
   </body>
 </html>
