@@ -133,10 +133,10 @@ textarea{
 
 .respond-vote{
   display: inline;
-  float: right;
-  width: 76px;
+  float: left;
+  width: 44px;
   margin-top: -14px;
-  min-width: 76px;
+  min-width: 44px;
 }
 
 .report-lessonplan{
@@ -239,7 +239,7 @@ textarea{
 
 .respond-name{
   display: inline;
-  padding: 10px 50px 0 0;
+  padding: 0px 40px 10px 0;
   float: left;
   width: 150px;
 }
@@ -358,7 +358,7 @@ text-align: center;
   width: 400px;
   background: #F1F1F2;
   padding: 20px;
-  border-right: 1px solid #ADADAD;
+  border-right: 1px solid #DDDDDD;
 }
 
 .threadcontent{
