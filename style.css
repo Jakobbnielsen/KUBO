@@ -1,8 +1,49 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Lato', Verdana;
+  font-family: 'Lato', sans-serif;
 }
+
+.userpage{
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 4px;
+  text-align: center;
+}​
+
+.rightusertext p{
+  color: #ADADAD;
+  font-size: 16px;
+  font-weight: 700;
+}​
+
+.rightusertext h2{
+  color: #646464;
+  font-weight: 300;
+}​
+
+.rightusertext{
+  background-color: #FFF;
+  margin-bottom: 20px;
+}​
+
+.userpage > .leftuserimg{
+  float: left;
+  width: 160px !important;
+}​
+
+.userpage img{
+  display: inline;
+}​
+
+.userpage h2{
+  display: inline;
+  color: #646464;
+}​
+
+
 
 #lessonplanone{
   /* display: none; */
@@ -220,11 +261,6 @@ textarea{
   padding: 10px 0;
 }
 
-.rightusertext{
-  float: center;
-  background-color: #FFF;
-  margin-bottom: 20px;
-}​
 
 .comment-top button{
 margin: auto;
@@ -348,7 +384,6 @@ text-align: center;
   margin: 12px 0 0 -21px;
   background: none;
   font-size: 14px;
-  -webkit-touch-callout: none;
   text-align: center;
 }
 
@@ -469,7 +504,6 @@ display: block;
 
 .chosen{
   background: #00A19B !important;
-  color: #00A19B;
 }
 
 .aside2 h3{
@@ -503,9 +537,8 @@ display: block;
   width: 100%;
   float: left;
   margin: 0 auto;
-  color: #FFF;
   padding: 20px 0 18px 0;
-  background-color: #fff;
+  background-color: #FFF;
   border-bottom: 1px solid #DDDDDD;
   transition: background-color 0.5s;
   cursor: pointer;
@@ -516,27 +549,6 @@ display: block;
 }
 
 
-#userpage {
-  width: 80%;
-  height: 200px;
-  margin: 0 auto;
-  background: #FFF;
-  border-radius: 4px;
-  text-align: center;
-}​
-
-#userpage img{
-  display: inline;
-}​
-
-#userpage h2{
-  display: inline;
-  color: #646464;
-}​
-
-.leftuserimage{
-  float: left;
-}​
 
 
 .forumsubject img{
@@ -583,11 +595,6 @@ display: block;
   background: #FFF;
   border-radius: 4px;
 }​
-
-@font-face {
-  font-family: CabinSketch-Bold; src: url('media/CabinSketch-Bold.otf');
-}
-
 
 body{
   background-color: #F1F1F2;
@@ -649,20 +656,6 @@ h2{
   color: #216393;
   font-size: 48px;
 }
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #BCBCBC;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #BCBCBC;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #BCBCBC;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #BCBCBC;
-}
-
 
 button{
   padding: 15px 35px;
@@ -907,7 +900,6 @@ h1{
   box-shadow: none;
   margin: 4px 0 0 -18px;
   background: none;
-  -webkit-touch-callout: none;
 }
 
 .posttext{
@@ -1042,12 +1034,13 @@ font-size: 20px;
   text-align:left;
   line-height: 1.3;
 }
-#news-container{
+
+.news-container{
   position: relative;
 }
 
 
-#news-container{
+.news-container{
   height: 600px;
   width: 75%;
   margin-left:11%;
@@ -1088,13 +1081,12 @@ grid-area:news4;
 
 .news-container {
   width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 
 button.newsbutton{
-  height: 65px;
+  height: 95px;
   width: 100%;
   background-color: #044C7F;
   margin-top: 50px;
@@ -1108,6 +1100,7 @@ button.newsbutton:hover{
 
 .news-content{
   max-height: 0;
+  margin-top: 150px;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
 }
@@ -1129,7 +1122,8 @@ footer{
   display: flex;
   margin: 0 auto;
   width: 60%;
-  padding-left: 100px;
+  font-size: 14px;
+  padding-left: 80px;
 }
 
 .footer-container h3{
@@ -1592,7 +1586,6 @@ article{
   margin: 4px 0 0 -30px;
   text-align: center;
   background: none;
-  -webkit-touch-callout: none;
   color: white;
 }
 
