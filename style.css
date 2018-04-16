@@ -4,6 +4,18 @@
   font-family: 'Lato', sans-serif;
 }
 
+body{
+  background-color: #F1F1F2;
+}
+
+#lessonvotebutton0{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
 .userpage{
   width: 80%;
   height: 200px;
@@ -167,9 +179,9 @@ textarea{
 
 .comment-vote{
   display: inline;
-  float: right;
+  float: left;
   width: 76px;
-  margin-top: -100px;
+  margin: -50px 0 0 -20px;
   min-width: 76px;
 }
 
@@ -343,7 +355,7 @@ text-align: center;
 }
 
 .threadinfo{
-  width: 300px;
+  width: 400px;
   background: #F1F1F2;
   padding: 20px;
   border-right: 1px solid #ADADAD;
@@ -358,7 +370,7 @@ text-align: center;
 }
 
 .threadcontent p{
-  width: 85%;
+  width: 95%;
 }
 
 .add-button{
@@ -388,7 +400,7 @@ text-align: center;
   background-image: url("media/lessonplanvote.png");
 }
 
-.votenumber121{
+.lessonplan-votenumber{
   width: 100%;
   box-shadow: none;
   margin: 12px 0 0 -21px;
@@ -558,6 +570,40 @@ display: block;
   background-color: #E8E8E8;
 }
 
+#userpage-container{
+  border-radius: 4px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+.userprofile{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.userpageleft{
+  width: 160px;
+  float: left;
+}
+
+.userpageright{
+  float: left;
+}
+
+.userpageright h2{
+  color: #646464;
+  font-weight: 300;
+}
+
+.userpageright p{
+  color: #ADADAD;
+  font-weight: 900;
+}
+
+.profile-infotext{
+  margin: 4px 0 8px 0;
+}
 
 
 
@@ -606,14 +652,11 @@ display: block;
   border-radius: 4px;
 }​
 
-body{
-  background-color: #F1F1F2;
-}
-
 main{
   width: 100%;
   float: left;
   box-sizing: border-box;
+  background-color: #F1F1F2;
   margin: 0;
   padding: 0;
 }
@@ -1199,6 +1242,7 @@ ul{
 header{
   padding-top:30px;
   height:100px;
+  background-color: #F1F1F2;
 }
 
 header a{
@@ -1609,7 +1653,15 @@ video{
   width: 100%;
 }​
 
-#lessonvotebutton13{
+#lessonvotebutton1{
+  float: left;
+  margin: 70px 0 0 20px;
+  width: 40px;
+  height: 23px;
+  background-image: url("media/lessonplanvote.png");
+}
+
+#lessonvotebutton2{
   float: left;
   margin: 70px 0 0 20px;
   width: 40px;
@@ -1674,14 +1726,6 @@ video{
 }
 
 #lessonvotebutton10{
-  float: left;
-  margin: 70px 0 0 20px;
-  width: 40px;
-  height: 23px;
-  background-image: url("media/lessonplanvote.png");
-}
-
-#lessonvotebutton12{
   float: left;
   margin: 70px 0 0 20px;
   width: 40px;

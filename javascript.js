@@ -130,102 +130,113 @@ document.getElementById('votebutton10').style.backgroundImage = 'url(media/upvot
 
 }
 
-function lessonvotebutton1()
+
+function lessonvotebutton0()
 {
-var value = parseInt(document.getElementById('lessonplannumber').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber0').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber').value = value;
-document.getElementById('lessonvotebutton1').style.backgroundImage = 'url(media/lessonplanupvote.png)';
+document.getElementById('lessonplannumber0').value = value;
+document.getElementById('lessonvotebutton0').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
-function lessonvotebutton12()
+function lessonvotebutton1()
 {
 var value = parseInt(document.getElementById('lessonplannumber1').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
 document.getElementById('lessonplannumber1').value = value;
-document.getElementById('lessonvotebutton12').style.backgroundImage = 'url(media/lessonplanupvote.png)';
+document.getElementById('lessonvotebutton1').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
-function lessonvotebutton3()
+function lessonvotebutton2()
 {
 var value = parseInt(document.getElementById('lessonplannumber2').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
 document.getElementById('lessonplannumber2').value = value;
+document.getElementById('lessonvotebutton2').style.backgroundImage = 'url(media/lessonplanupvote.png)';
+
+}
+
+function lessonvotebutton3()
+{
+var value = parseInt(document.getElementById('lessonplannumber3').value, 10);
+value = isNaN(value) ? 0 : value;
+value++;
+document.getElementById('lessonplannumber3').value = value;
 document.getElementById('lessonvotebutton3').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton4()
 {
-var value = parseInt(document.getElementById('lessonplannumber3').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber4').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber3').value = value;
+document.getElementById('lessonplannumber4').value = value;
 document.getElementById('lessonvotebutton4').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton5()
 {
-var value = parseInt(document.getElementById('lessonplannumber4').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber5').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber4').value = value;
+document.getElementById('lessonplannumber5').value = value;
 document.getElementById('lessonvotebutton5').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton6()
 {
-var value = parseInt(document.getElementById('lessonplannumber5').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber6').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber5').value = value;
+document.getElementById('lessonplannumber6').value = value;
 document.getElementById('lessonvotebutton6').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton7()
 {
-var value = parseInt(document.getElementById('lessonplannumber6').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber7').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber6').value = value;
+document.getElementById('lessonplannumber7').value = value;
 document.getElementById('lessonvotebutton7').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton8()
 {
-var value = parseInt(document.getElementById('lessonplannumber7').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber8').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber7').value = value;
+document.getElementById('lessonplannumber8').value = value;
 document.getElementById('lessonvotebutton8').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton9()
 {
-var value = parseInt(document.getElementById('lessonplannumber8').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber9').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber8').value = value;
+document.getElementById('lessonplannumber9').value = value;
 document.getElementById('lessonvotebutton9').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
 
 function lessonvotebutton10()
 {
-var value = parseInt(document.getElementById('lessonplannumber9').value, 10);
+var value = parseInt(document.getElementById('lessonplannumber10').value, 10);
 value = isNaN(value) ? 0 : value;
 value++;
-document.getElementById('lessonplannumber9').value = value;
+document.getElementById('lessonplannumber10').value = value;
 document.getElementById('lessonvotebutton10').style.backgroundImage = 'url(media/lessonplanupvote.png)';
 
 }
