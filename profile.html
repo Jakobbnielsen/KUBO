@@ -3,27 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="KEDU educators platfrom for teachers - KUBO. Kedu is an online platform for teachers all around the world, find lessonplans and forum debate about the KUBO robot and teaching in general">
+    <meta name="keywords" content="KUBO, KEDU, Educational, TagTile, Robot, Teaching, Teachers, Education, Community, Programming, Kids, Plug-and-learn">
     <title>KEDU - Profile</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <script src="javascript.js"></script>
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="dashboard.html"><img src="media/kedu-logo.png" alt="Picture of the KEDU logo"></a>
-        </div>
+        <a href="dashboard.html">
+          <img src="media/kedu-logo.png" alt="Picture of the KEDU logo">
+        </a>
+      </div>
       <div class="headerstyle">
-      <nav>
-        <ul>
-          <li><a href="profile.html" class="current">PROFILE</a></li>
-          <li><a href="forums.html">FORUMS</a></li>
-          <li><a href="lessonplans.html">LESSON PLANS</a></li>
-          <li><a href="dashboard.html">DASHBOARD</a></li>
-        </ul>
-      </nav>
-    </div>
+        <nav>
+          <ul>
+            <li><a href="profile.html" class="current">PROFILE</a></li>
+            <li><a href="forums.html">FORUMS</a></li>
+            <li><a href="lessonplans.html">LESSON PLANS</a></li>
+            <li><a href="dashboard.html">DASHBOARD</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <div id="userpage-container">
@@ -37,11 +40,11 @@
               <p>NÆSBY SKOLE</p>
               <p>DANMARK</p>
             </div>
-            <p class="green">26 LESSON PLANS</p><p class="blue"> 157 FORUM POSTS</p>
+            <p class="green">26 LESSON PLANS</p>
+            <p class="blue"> 157 FORUM POSTS</p>
           </div>
         </div>
-        <section id="usercontent">
-
+        <div id="usercontent">
           <div id="lessonplanfrontcontainer-user">
             <div class="profile-category profile-active">
               <p onclick="changeCategory()">LESSON PLANS</p>
@@ -55,90 +58,72 @@
               </div>
               <p class="posttext">Use KUBO in this creative way to make your students like Einstein</p>
             </div>
-          <div class="vote white">
-            <div id="votebutton2" onclick="vote2(); this.onclick=null;">
-              <input class="votenumber" type="text" id="number2" value="421" disabled>
+            <div class="vote white">
+              <div id="votebutton2" onclick="vote2(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number2" value="421" disabled>
+              </div>
+              <p class="posttext">A guide on how to use functions with KUBO</p>
             </div>
-            <p class="posttext">A guide on how to use functions with KUBO</p>
-          </div>
-          <div class="vote">
-            <div id="votebutton3" onclick="vote3(); this.onclick=null;">
-              <input class="votenumber" type="text" id="number3" value="409" disabled>
+            <div class="vote">
+              <div id="votebutton3" onclick="vote3(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number3" value="409" disabled>
+              </div>
+              <p class="posttext">Learn to make functions fun</p>
             </div>
-            <p class="posttext">Learn to make functions fun</p>
-          </div>
-          <div class="vote white">
-            <div id="votebutton4" onclick="vote4(); this.onclick=null;">
-              <input class="votenumber" type="text" id="number4" value="389" disabled>
+            <div class="vote white">
+              <div id="votebutton4" onclick="vote4(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number4" value="389" disabled>
+              </div>
+              <p class="posttext">Make functions into a competition</p>
             </div>
-            <p class="posttext">Make functions into a competition</p>
-          </div>
-          <div class="vote">
-            <div id="votebutton5" onclick="vote5(); this.onclick=null;">
-              <input class="votenumber" type="text" id="number5" value="289" disabled>
+            <div class="vote">
+              <div id="votebutton5" onclick="vote5(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number5" value="289" disabled>
+              </div>
+              <p class="posttext">Getting advanced with functions</p>
             </div>
-            <p class="posttext">Getting advanced with functions</p>
           </div>
-        </div>
-
-
-        <div id="forumfrontcontainer">
-          <div class="profile-category">
-            <p onclick="changeCategory()">LESSON PLANS</p>
-          </div>
-          <div class="profile-category profile-active">
-            <p onclick="changeCategory2()">FORUMS</p>
-          </div>
-          <div class="vote">
-            <div id="votebutton6" onclick="vote6(); this.onclick=null;">
-              <input class="votenumber" type="text" id="number6" value="823" disabled>
+          <div id="forumfrontcontainer">
+            <div class="profile-category">
+              <p onclick="changeCategory()">LESSON PLANS</p>
             </div>
-            <p class="posttext">Download the new KEDU app, and participate in the competition</p>
-          </div>
-          <div class="vote white">
-            <div id="votebutton7" onclick="vote7(); this.onclick=null;">
-              <input class="votenumber" type="text" id="number7" value="465" disabled>
+            <div class="profile-category profile-active">
+              <p onclick="changeCategory2()">FORUMS</p>
             </div>
-            <p class="posttext">KUBO release the KUBO classroom-set!</p>
+            <div class="vote">
+              <div id="votebutton6" onclick="vote6(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number6" value="823" disabled>
+              </div>
+              <p class="posttext">Download the new KEDU app, and participate in the competition</p>
+            </div>
+            <div class="vote white">
+              <div id="votebutton7" onclick="vote7(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number7" value="465" disabled>
+              </div>
+              <p class="posttext">KUBO release the KUBO classroom-set!</p>
+            </div>
+            <div class="vote">
+              <div id="votebutton8" onclick="vote8(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number8" value="423" disabled>
+              </div>
+              <p class="posttext">New popular way to use the KUBO robot</p>
+            </div>
+            <div class="vote white">
+              <div id="votebutton9" onclick="vote9(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number9" value="278" disabled>
+              </div>
+              <p class="posttext">Discussion: How do other teacher use KUBO in class.</p>
+            </div>
+            <div class="vote">
+              <div id="votebutton10" onclick="vote10(); this.onclick=null;">
+                <input class="votenumber" type="text" id="number10" value="129" disabled>
+              </div>
+              <p class="posttext">How do i convince my school to buy the new classroom-set</p>
+            </div>
           </div>
-        <div class="vote">
-          <div id="votebutton8" onclick="vote8(); this.onclick=null;">
-            <input class="votenumber" type="text" id="number8" value="423" disabled>
-          </div>
-          <p class="posttext">New popular way to use the KUBO robot</p>
-        </div>
-        <div class="vote white">
-          <div id="votebutton9" onclick="vote9(); this.onclick=null;">
-            <input class="votenumber" type="text" id="number9" value="278" disabled>
-          </div>
-          <p class="posttext">Discussion: How do other teacher use KUBO in class.</p>
-        </div>
-        <div class="vote">
-          <div id="votebutton10" onclick="vote10(); this.onclick=null;">
-            <input class="votenumber" type="text" id="number10" value="129" disabled>
-          </div>
-          <p class="posttext">How do i convince my school to buy the new classroom-set</p>
         </div>
       </div>
-
-        </section>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
-
     <footer>
       <div class="footer-container">
         <div class="footer1">
@@ -163,14 +148,5 @@
         </div>
       </div>
     </footer>
-    <script>
-    function changeCategory(){
-        forumfrontcontainer.style.display = "none";
-    }
-
-    function changeCategory2(){
-        forumfrontcontainer.style.display = "block";
-    }
-    </script>
   </body>
 </html>

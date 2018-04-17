@@ -8,6 +8,14 @@ body{
   background-color: #F1F1F2;
 }
 
+#difficulty{
+  text-transform: uppercase;
+}
+
+#lessonplanone{
+  /*display: none;*/
+}
+
 #lessonvotebutton0{
   float: left;
   margin: 70px 0 0 20px;
@@ -54,16 +62,6 @@ body{
   display: inline;
   color: #646464;
 }​
-
-
-
-#lessonplanone{
-  /* display: none; */
-}
-
-#difficulty{
-  text-transform: uppercase;
-}
 
 .create-lesson .send-comment{
   padding-top: 0;
@@ -213,7 +211,7 @@ textarea{
 }
 
 .comment-content{
-  padding: 0 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .comment-title h3{
@@ -269,7 +267,8 @@ textarea{
   float: left;
 }
 
-.respond-name p{
+.respond-name a{
+  text-decoration: none;
   color: #00A19B;
   font-size: 18px;
   float: left;
@@ -334,11 +333,13 @@ text-align: center;
   float: left;
 }
 
-.profiletext h4{
+.profiletext a{
+  text-decoration: none;
   color: #646464;
   font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
   font-weight: 500;
-  padding: 0 0 4px 0;
   padding-left: 0 !important;
 }
 
@@ -347,6 +348,11 @@ text-align: center;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 900;
+}
+
+.profiletext h4{
+  padding: 0 0 4px 0 !important;
+  font-size: 18px;
 }
 
 .green{
@@ -496,7 +502,7 @@ font-weight: 700;
 }
 
 .lessonplan-bottom{
-display: block;
+  display: block;
 }
 
 .lessonplan-bottom img{
@@ -550,9 +556,6 @@ display: block;
 .topcategory{
   margin: 0 !important;
 }
-
-
-
 
 .main2{
   width: 800px;
@@ -628,8 +631,6 @@ display: block;
   margin: 4px 0 8px 0;
 }
 
-
-
 .forumsubject img{
   display: inline;
 }
@@ -673,6 +674,7 @@ display: block;
   margin: 0 auto;
   background: #FFF;
   border-radius: 4px;
+  padding-bottom: 10px;
 }​
 
 main{
@@ -1032,8 +1034,6 @@ h1{
   justify-content: space-between;
 }
 
-
-
 .item1 {
   grid-area: menu;
   background-image: url('media/kubo1.jpg');
@@ -1048,13 +1048,12 @@ h1{
 }
 .item3 {
   grid-area: right2;
-  background-image: url('media/kubo2.jpg');
+  background-image: url('media/kubo3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .grid-container {
-  width: 80%;
   height: 500px;
   margin: 0 auto;
   padding-bottom: 80px;
@@ -1069,6 +1068,7 @@ h1{
   color: white;
   font-size: 24px;
   margin: 450px 0 0 20px;
+  padding-right: 20px;
   float: left;
   bottom: 0;
 }
@@ -1076,7 +1076,8 @@ h1{
 .smallimagetext{
   color: white;
   font-size: 17px;
-  margin: 200px 0 0 20px;
+  padding-right: 20px;
+  margin: 210px 0 0 20px;
   float: left;
   bottom: 0;
 }
@@ -1107,12 +1108,12 @@ h1{
 
 .active{
   background-color: #F1F1F2 !important;
-    color: #00A19B !important;
+  color: #00A19B !important;
 }
 
 .profile-active{
   background-color: #00A19B !important;
-    color: #FFF !important;
+  color: #FFF !important;
 }
 
 .category{
@@ -1156,11 +1157,11 @@ h1{
 }
 
 #news h2{
-  color: black;
+  color: #044C7F;
   padding-right: 40px;
 }
 
-#news h3{
+#news .newstitle{
 color:#ffffff;
 font-size: 20px;
 }
@@ -1172,17 +1173,15 @@ font-size: 20px;
   padding-top:5%;
   padding-bottom: 5%;
   font-size: 14px;
+  height: 180px;
   text-align:left;
-  line-height: 1.3;
+  line-height: 22px;
 }
+
 
 .news-container{
   position: relative;
-}
-
-
-.news-container{
-  height: 600px;
+  height: 700px;
   width: 75%;
   margin-left:11%;
   margin-top: 3%;
@@ -1198,33 +1197,25 @@ background-color: white;
 grid-area:news1;
 }
 
-
-
 .news2{
 background-color: white;
 grid-area:news2;
 }
-
-
 
 .news3{
 background-color: white;
 grid-area:news3;
 }
 
-
-
 .news4{
 background-color: white;
 grid-area:news4;
 }
 
-
 .news-container {
   width: 80%;
   margin: 0 auto;
 }
-
 
 button.newsbutton{
   height: 95px;
@@ -1246,7 +1237,6 @@ button.newsbutton:hover{
   transition: max-height 0.2s ease-in-out;
 }
 
-
 footer{
   float: left;
   width: 100%;
@@ -1255,7 +1245,6 @@ footer{
   left: 0;
   bottom: 0;
 }
-
 
 .footer-container{
   padding: 40px 0 30px 0;
@@ -1283,11 +1272,9 @@ font-weight: 900;
   color: #00A19B;
 }
 
-
 .footer1 {
   color:#ffffff;
 }
-
 
 .footer2{
   color:#ffffff;
@@ -1307,7 +1294,6 @@ font-weight: 900;
 .footer3 a{
   text-decoration: underline;
 }
-
 
 .overlay{
   position: relative;
@@ -1369,10 +1355,6 @@ header nav a:hover{
   float: left;
   padding-left: 35px;
 }
-
-
-
-/* LESSONPLANS.HTML STYLE */
 
 #categories{
   width: 100%;
@@ -1530,9 +1512,6 @@ header nav a:hover{
   grid-area: plan4;
 }
 
-
-/* LESSONPLAN1.HTML STYLE */
-
 #top{
   background-color: #00A19B;
   width: 100%;
@@ -1559,7 +1538,6 @@ header nav a:hover{
 .profile-picture{
   margin: 1% 2% 2% 2%;
 }
-
 
 .name{
   color: black;
@@ -1639,7 +1617,6 @@ article{
   padding: 10px 0 4px 20px;
 }
 
-
 .maintext p{
   color: #646464;
   padding: 0 20px 10px 20px;
@@ -1648,7 +1625,7 @@ article{
 .maintext{
   background-color: #F1F1F2;
   float: left;
-    width: 100%;
+  width: 100%;
   padding-bottom: 10px;
 }
 
@@ -1730,7 +1707,6 @@ article{
   background: none;
   color: white;
 }
-
 
 .lessonvideo {
   padding: 2% 0 2% 0;
